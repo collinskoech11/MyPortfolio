@@ -94,3 +94,16 @@ body{
 	margin-left: -10%;
 	font-weight: bold;
 }
+.desc .my-desc .socials{
+	display: block;
+	width: 100%;
+}
+.desc .my-desc .socials .twitter,.instagram,.github,.linked-in{
+	width:90%;
+	align-items: left;
+	margin-left: -30%;
+}
+.desc .my-desc .socials img{
+	width: 30px;
+	height: 30px;
+}
