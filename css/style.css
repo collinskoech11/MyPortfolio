@@ -98,10 +98,15 @@ body{
 	display: block;
 	width: 100%;
 }
-.desc .my-desc .socials .twitter,.instagram,.github,.linked-in{
+.desc .my-desc .socials a{
+	color: rgb(0,0,0);
+	text-decoration: none;
+}
+.desc .my-desc .socials .twitter,.instagram,.github,.linked-in,.email{
 	width:90%;
 	align-items: left;
-	margin-left: -30%;
+	margin-left: -10%;
+	margin-top: 4px;
 }
 .desc .my-desc .socials img{
 	width: 30px;
