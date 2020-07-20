@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	height: 100vh;
+}
+.desc{
+	width: 30%;
+	height: 100vh;
+	display: block;
+	background-image: linear-gradient(to right, navy, teal, #fff);
+}
+.desc .desc-img{
+	margin-left: 100px;
+	width: 150px;
+	height: 150px;
+	border-radius:75px;
+	border:1px solid rgb(0,0,0);
+}
