@@ -77,3 +77,10 @@ body{
 	height:30px;
 	background:#fff;
 }
+.desc .my-desc .Name{
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	margin-top:50px;
+	margin-left: -10%;
+}
