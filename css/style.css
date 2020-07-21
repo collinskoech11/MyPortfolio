@@ -16,6 +16,7 @@ body{
 	padding-top: 30px;
 	position: fixed;
 	text-align: center;
+	color: navy;
 }
 .desc .desc-img{
 	margin-left: 50px;
@@ -151,10 +152,11 @@ body{
 .header-opt{
 	width:100%;
 	display: none;
-	background-image: linear-gradient(teal,  transparent);
+	background-image: linear-gradient(teal, #fff, transparent);
 	color: navy;
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
+	position: fixed;
 }
 .header-opt .header-img{
 	width: 50px;
@@ -234,18 +236,57 @@ body{
 		display: inline-block;
 	}
 }
-.content{
+.content-1{
 	width: 66%;
-	height: 200px;
-	border:1px solid rgb(0,0,0);
+	height: auto;
+	padding: 10px;
+	border:2px solid rgb(0,0,0,0.1);
 	border-radius: 10px;
 	float: right;
-	margin-top: 10px;
+	margin-top: 35px;
+	margin-right: 2%;
+	display: block;
+	color: navy;
+	background-image: linear-gradient(teal, #fff, transparent);
+}
+.content-1 .title{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	align-items: center;
+	text-transform: uppercase;
+}
+.content-1 .lang{
+	width: 100%;
+	display: inline-block;
+	height: auto;
+}
+.content-1 .lang .Cat{
+	width: auto;
+	padding: 5px;
+	text-align: center;
+	float: left;
+	font-weight: bold;
+	margin-right: 6%;
+	margin-left: 3%;
+}
+.content{
+	width: 66%;
+	height: auto;
+	padding: 10px;
+	border:2px solid rgb(0,0,0,0.1);
+	border-radius: 10px;
+	float: right;
+	margin-top: 5px;
 	margin-right: 2%;
 }
 @media screen and (max-width: 600px){
-	.content{
+	.content,.content-1{
 		width: 90%;
 		margin-right:5%;
+	}
+	.content-1 .lang .Cat{
+		margin-right: 0;
+		margin-left: 1%;
 	}
 }
