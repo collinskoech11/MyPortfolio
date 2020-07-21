@@ -35,7 +35,6 @@ body{
 	margin-left:250px;
 	margin-top: -50px;
 	z-index: 3;
-	border:1px solid rgb(0,0,0);
 	background-image: linear-gradient(to right, teal,#fff);
 	overflow: hidden;
 }
@@ -79,6 +78,20 @@ body{
 	height:30px;
 	background:#fff;
 }
+@media screen and (max-width: 1000px){
+	.desc .desc-img{
+		margin-left: 25px;
+		width: 150px;
+		height: 150px;
+		border-radius: 75px;
+	}
+	.desc .desc-sub{
+		width: 35px;
+		height: 35px;
+		border-radius: 17.5px;
+		margin-left: 150px;
+	}
+}
 .desc .my-desc .Name{
 	height: 50px;
 	width: 100%;
@@ -86,6 +99,11 @@ body{
 	margin-top:50px;
 	margin-left: -5%;
 	font-size: 26px;
+}
+@media screen and (max-width: 800px){
+	.desc .my-desc .Name{
+		height:100px;
+	}
 }
 .desc .my-desc .bio{
 	margin-left: -10%;
