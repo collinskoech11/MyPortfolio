@@ -12,7 +12,7 @@ body{
 	width: 30%;
 	height: 100vh;
 	display: block;
-	background-image: linear-gradient(to right, teal, #fff);
+	background-image: linear-gradient(to right, teal, rgb(220,220,220), white);
 	padding-top: 30px;
 	position: fixed;
 	text-align: center;
@@ -111,4 +111,83 @@ body{
 .desc .my-desc .socials img{
 	width: 30px;
 	height: 30px;
+}
+.btn{
+	left:2%;
+	top:40px;
+	position: fixed;
+	display:none;
+	width: 40px;
+	height:40px;
+	background-color: teal;
+	cursor:pointer;
+}
+.btn .line{
+	width: 30px;
+	height: 4px;
+	margin-top: 7px;
+	background-color: #fff;
+	margin-left: 5px;
+}
+.close{
+	left:80%;
+	top:20px;
+	font-size: 35px;
+	font-weight: bold;
+	position: absolute;
+	transform: rotate(45deg);
+	float: right;
+	cursor: pointer;
+	display: none;
+}
+@media screen and (min-width: 630px){
+	.desc{
+		display:block;
+	}
+}
+@media screen and (max-width: 600px){
+	.desc{
+		display:none;
+		width: 45%;
+		z-index: 3;
+	}
+	.close{
+		display:flex;
+	}
+	.desc .desc-img{
+		margin-left: 20px;
+		width: 100px;
+		height:100px;
+		border-radius: 50px;
+	}
+	.desc .desc-sub{
+		margin-left: 80px;
+		margin-top: -25px;
+		width:30px;
+		height:30px;
+		border-radius: 15px;
+	}
+	.desc .desc-sub .sub-img{
+		width: 30px;
+		height: 30px;
+		border-radius: 15px;
+	}
+	.desc .desc-sub img{
+		width:30px;
+		height: 30px;
+	}
+	.desc .my-desc .Name{
+		margin-top: 20px;
+		margin-bottom: 25px;
+	}
+	.desc .my-desc .socials .twitter,.instagram,.github,.linked-in,.email{
+		margin-left: 0;
+		margin-top: 10px;
+	}
+	.desc .my-desc .socials .linked-in,.email{
+		font-size: 10px;
+	}
+	.btn{
+		display: block;
+	}
 }
