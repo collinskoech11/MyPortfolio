@@ -12,7 +12,7 @@ body{
 	width: 30%;
 	height: 100vh;
 	display: block;
-	background-image: linear-gradient(to right, teal, rgb(220,220,220), white);
+	background-image: linear-gradient(to right, teal, rgb(220,220,220), transparent);
 	padding-top: 30px;
 	position: fixed;
 	text-align: center;
@@ -35,7 +35,7 @@ body{
 	margin-top: -50px;
 	z-index: 3;
 	border:1px solid rgb(0,0,0);
-	background-image: linear-gradient(to right, teal, #fff);
+	background-image: linear-gradient(to right, teal,#fff);
 	overflow: hidden;
 }
 .desc .desc-sub .sub-img{
@@ -114,12 +114,13 @@ body{
 }
 .btn{
 	left:2%;
-	top:40px;
+	top:60px;
 	position: fixed;
 	display:none;
 	width: 40px;
 	height:40px;
 	background-color: teal;
+	opacity: 0.75;
 	cursor:pointer;
 }
 .btn .line{
@@ -128,6 +129,13 @@ body{
 	margin-top: 7px;
 	background-color: #fff;
 	margin-left: 5px;
+	opacity: 0.75;
+}
+.btn:hover {
+	opacity:1;
+}
+.btn:hover .line{
+	opacity:1;
 }
 .close{
 	left:80%;
@@ -139,6 +147,38 @@ body{
 	float: right;
 	cursor: pointer;
 	display: none;
+}
+.header-opt{
+	width:100%;
+	display: none;
+	background-image: linear-gradient(teal,  transparent);
+	color: navy;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.header-opt .header-img{
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	overflow: hidden;
+	float:left;
+}
+.header-opt .header-img img{
+	width: 100%;
+	height:100%;
+}
+.header-opt .identify{
+	float: left;
+	width:40%;
+	height: 30px;
+	padding-top: 15px;
+	margin-left: 20px;
+}
+.header-opt .auto{
+	width: 40%;
+	height:30px;
+	float: left;
+	padding-top: 15px;
 }
 @media screen and (min-width: 630px){
 	.desc{
@@ -189,5 +229,23 @@ body{
 	}
 	.btn{
 		display: block;
+	}
+	.header-opt{
+		display: inline-block;
+	}
+}
+.content{
+	width: 66%;
+	height: 200px;
+	border:1px solid rgb(0,0,0);
+	border-radius: 10px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 2%;
+}
+@media screen and (max-width: 600px){
+	.content{
+		width: 90%;
+		margin-right:5%;
 	}
 }
