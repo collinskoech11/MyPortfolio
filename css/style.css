@@ -108,9 +108,15 @@ body{
 	margin-left: -10%;
 	height: 40px;
 }
+.desc .my-desc .bio p{
+	color: navy;
+}
 .desc .my-desc .organisation{
 	margin-left: -10%;
 	font-weight: bold;
+}
+.desc .my-desc .organisation p{
+	color: navy;
 }
 .desc .my-desc .socials{
 	display: block;
@@ -329,6 +335,36 @@ body{
 	margin-top: 5px;
 	margin-right: 2%;
 	display: inline-block;
+}
+.content p{
+	font-weight: bold;
+}
+.content h4{
+	padding: 10px;
+	text-transform: uppercase;
+}
+.content .jambo h4{
+	color: rgb(32,17,48);
+}
+.content .jambo p{
+	color:rgb(32,17,48);
+	font-weight: bold;
+}
+.content .cokobox h4{
+	color:#fff;
+}
+.content .cokobox p{
+	color: red;
+	font-weight: bold;
+}
+.content .mysa h4{
+	color: black;
+}
+.content .mysa p{
+	color:#fff;
+}
+.content .fifth h4,p{
+	color: yellow;
 }
 .content .content-img{
 	width: 60%;
