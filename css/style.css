@@ -329,6 +329,24 @@ body{
 	float: right;
 	margin-top: 5px;
 	margin-right: 2%;
+	display: inline-block;
+}
+.content .content-img{
+	width: 60%;
+	height: auto;
+	overflow: hidden;
+	float:left;
+}
+.content .content-img img{
+	width: 100%;
+	size: cover;
+	height: 100%;
+}
+.content .content-text{
+	width: 38%;
+	height: auto;
+	float: left;
+	text-align: center;
 }
 @media screen and (max-width: 600px){
 	.content,.content-1{
