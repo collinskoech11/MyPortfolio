@@ -11,11 +11,14 @@ body{
 	width: 30%;
 	height: 100vh;
 	display: block;
-	background-image: linear-gradient(to right, teal, rgb(220,220,220), transparent);
+	background-image: linear-gradient(to right, rgb(220,220,220), teal);
 	padding-top: 30px;
 	position: fixed;
 	text-align: center;
 	color: navy;
+}
+.desc .close {
+	color: rgb(0,0,0);
 }
 .desc .desc-img{
 	margin-left: 50px;
@@ -365,6 +368,12 @@ body{
 }
 .content .fifth h4,p{
 	color: yellow;
+}
+.content .one h4{
+	color: #fff;
+}
+.content .devco h4{
+	color: navy;
 }
 .content .content-img{
 	width: 60%;
