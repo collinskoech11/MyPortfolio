@@ -297,7 +297,7 @@ body{
 		display:none;
 		width: 45%;
 		z-index: 3;
-		background-color: rgb(0,0,250,0.5);
+		background-color: lightgray;
 	}
 	.close{
 		display:flex;
