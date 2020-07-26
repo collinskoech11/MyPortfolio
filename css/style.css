@@ -34,8 +34,12 @@ body{
 	overflow: hidden;
 	margin-left: 40%;
 }
+.stat h1{
+	color: orange;
+}
 .stat h2{
 	padding-top: 50px;
+	color: navy;
 }
 .stat img{
 	width: 100%;
