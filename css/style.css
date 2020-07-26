@@ -7,16 +7,78 @@ body{
 	background-color: #fff;
 	font-family: sans-serif;
 }
+.container{
+	animation: fade 15s;
+}
+.stat{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	text-align: center;
+	justify-content: center;
+	top:0;
+	opacity: 0;
+	animation: fadeOut 9s;
+	font-size: 50px;
+	z-index: -3;
+	text-transform: uppercase;
+	background-color:rgb(0,0,0);
+	color: #fff;
+}
+.stat .img-con{
+	width: 250px;
+	height: 250px;
+	border-radius:125px;
+	overflow: hidden;
+	margin-left: 40%;
+}
+.stat img{
+	width: 100%;
+	height: 100%;
+}
+@media screen and (max-width: 800px){
+	.stat{
+		font-size: 27px;
+	}
+	.stat .img-con{
+		margin-left: 30%;
+	}
+}
+@media screen and (max-width: 600px){
+	.stat .img-con{
+		margin-left: 20%;
+	}
+}
+@keyframes fadeOut{
+	from{
+		opacity: 1;
+		z-index: 10;
+	}
+	to{
+		opacity: 0;
+		display: none;
+		z-index: -3;
+	}
+}
 .desc{
 	width: 30%;
 	height: 100vh;
 	display: block;
-	background-image: linear-gradient(to right, rgb(220,220,220), teal);
+	background-color: #fff;
 	padding-top: 30px;
 	position: fixed;
 	text-align: center;
 	color: navy;
 	overflow-x: hidden;
+}
+@keyframes fade{
+	from{
+		opacity:0;
+	}
+	to{
+		opacity:1;
+	}
 }
 .desc .close {
 	color: rgb(0,0,0);
@@ -279,14 +341,14 @@ body{
 	width: 66%;
 	height: auto;
 	padding: 10px;
-	border-bottom:1px solid rgb(0,0,0,0.03);
+	border:2px solid rgb(0,0,0,0.1);
 	border-radius: 10px;
 	float: right;
 	margin-top:0;
 	margin-right: 2%;
 	display: block;
 	color: navy;
-	background-image: linear-gradient(teal, #fff, transparent);
+	background-color: #fff;
 }
 #myheader{
 
@@ -402,6 +464,7 @@ body{
 	margin-top: 5px;
 	margin-right: 2%;
 	display: inline-block;
+	animation: fade 10s;
 }
 .content img{
 	width: 20px;
