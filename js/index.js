@@ -13,12 +13,18 @@ function() {
 document.getElementById('dep').addEventListener('click',
 	function() {
 		document.querySelector('.content-wrapper').style.display = 'none';
+		document.querySelector('.os-wrapper').style.display = 'none';
+		document.querySelector('.dep-wrapper').style.display = 'block';
 	})
 document.getElementById('web').addEventListener('click',
 	function() {
-		document.querySelector('.content-wrapper').style.display = 'inline-block';
+		document.querySelector('.content-wrapper').style.display = 'block';
+		document.querySelector('.os-wrapper').style.display = 'none';
+		document.querySelector('.dep-wrapper').style.display = 'none';
 	})
 document.getElementById('os').addEventListener('click',
 	function() {
 		document.querySelector('.content-wrapper').style.display = 'none';
+		document.querySelector('.os-wrapper').style.display = 'block';
+		document.querySelector('.dep-wrapper').style.display = 'none;'
 	})
