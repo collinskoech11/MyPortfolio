@@ -221,12 +221,12 @@ body{
 	float: left;
 	padding-top: 15px;
 }
-@media screen and (min-width: 630px){
+@media screen and (min-width: 830px){
 	.desc{
 		display:block;
 	}
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
 	.desc{
 		display:none;
 		width: 45%;
@@ -316,7 +316,7 @@ body{
 		width: auto;
 	}
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
 	.Header-btn{
 		margin-left: 1%;
 		width:auto;
@@ -342,7 +342,7 @@ body{
 	color:#fff;
 	font-weight: bold;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
 	.content-1{
 		margin-top: 35px;
 	}
@@ -478,7 +478,7 @@ body{
 	float: left;
 	text-align: center;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
 	.content,.content-1,.header{
 		width: 90%;
 		margin-right:5%;
