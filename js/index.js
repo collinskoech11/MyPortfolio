@@ -5,8 +5,20 @@ function() {
 	document.querySelector('.header-opt').style.display = 'none';
 });
 document.querySelector('.close').addEventListener('click',
+function() {
+	document.querySelector('.desc').style.display = 'none';
+	document.querySelector('#btn').style.display = 'block';
+	document.querySelector('.header-opt').style.display = 'inline-block';
+});
+document.getElementById('dep').addEventListener('click',
 	function() {
-		document.querySelector('.desc').style.display = 'none';
-		document.querySelector('#btn').style.display = 'block';
-		document.querySelector('.header-opt').style.display = 'inline-block';
+		document.querySelector('.content-wrapper').style.display = 'none';
+	})
+document.getElementById('web').addEventListener('click',
+	function() {
+		document.querySelector('.content-wrapper').style.display = 'inline-block';
+	})
+document.getElementById('os').addEventListener('click',
+	function() {
+		document.querySelector('.content-wrapper').style.display = 'none';
 	})
