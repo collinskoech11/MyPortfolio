@@ -73,7 +73,7 @@ body{
 	width: 30%;
 	height: 100vh;
 	display: block;
-	background-color: rgb(0,0,255,0.15);
+	background:transparent;
 	padding-top: 30px;
 	position: fixed;
 	text-align: center;
@@ -301,7 +301,7 @@ body{
 		display:none;
 		width: 45%;
 		z-index: 3;
-		background-color: lightgray;
+		background-color: rgb(0,0,255,0.1);
 	}
 	.close{
 		display:flex;
