@@ -15,16 +15,21 @@ document.getElementById('dep').addEventListener('click',
 		document.querySelector('.content-wrapper').style.display = 'none';
 		document.querySelector('.os-wrapper').style.display = 'none';
 		document.querySelector('.dep-wrapper').style.display = 'block';
-	})
+	});
 document.getElementById('web').addEventListener('click',
 	function() {
 		document.querySelector('.content-wrapper').style.display = 'block';
 		document.querySelector('.os-wrapper').style.display = 'none';
 		document.querySelector('.dep-wrapper').style.display = 'none';
-	})
+	});
 document.getElementById('os').addEventListener('click',
 	function() {
 		document.querySelector('.content-wrapper').style.display = 'none';
 		document.querySelector('.os-wrapper').style.display = 'block';
 		document.querySelector('.dep-wrapper').style.display = 'none;'
-	})
+	});
+window.addEventListener("scroll", 
+	function() {
+		var header = document.querySelector("#myHeader");
+		myHeader.classList.toggle("sticky", window.scrollY > 0);
+	});

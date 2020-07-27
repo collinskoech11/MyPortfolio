@@ -14,7 +14,7 @@ body{
 .stat{
 	width: 100%;
 	height: 100%;
-	position: absolute;
+	position: fixed;
 	top:0;
 	text-align: center;
 	justify-content: center;
@@ -35,7 +35,7 @@ body{
 	margin-left: 40%;
 }
 .stat h1{
-	color: orange;
+	color: navy;
 }
 .stat h2{
 	padding-top: 50px;
@@ -361,9 +361,13 @@ body{
 #myheader{
 
 }
-.sticky{
+header .sticky{
 	top:0;
 	position: fixed;
+	right:0;
+	background-color: lightgray;
+	margin-top: 0;
+	transition: 2s;
 }
 .Header-btn{
 	width: 25%;
