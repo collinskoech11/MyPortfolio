@@ -31,5 +31,5 @@ document.getElementById('os').addEventListener('click',
 window.addEventListener("scroll", 
 	function() {
 		var header = document.querySelector("#myHeader");
-		myHeader.classList.toggle("sticky", window.scrollY > 0);
+		myHeader.classList.toggle("sticky", window.scrollY > 100);
 	});

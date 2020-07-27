@@ -335,6 +335,7 @@ body{
 	.desc .my-desc .socials .twitter,.instagram,.github,.linked-in,.email{
 		margin-left: 0;
 		margin-top: 10px;
+		text-align: center;
 	}
 	.desc .my-desc .socials .linked-in,.email{
 		font-size: 10px;
@@ -392,7 +393,7 @@ header .sticky{
 }
 @media screen and (max-width: 800px){
 	.Header-btn{
-		margin-left: 1%;
+		margin-left: 0;
 		width:auto;
 	}
 	.Header-btn button{
@@ -477,6 +478,12 @@ header .sticky{
 	margin-right: 2%;
 	display: inline-block;
 	animation: fade 10s;
+}
+@media screen and (max-width: 800px){
+	.header{
+		margin-right: 0;
+		padding: 0;
+	}
 }
 .content img{
 	width: 20px;
