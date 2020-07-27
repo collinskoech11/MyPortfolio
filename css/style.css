@@ -78,7 +78,6 @@ body{
 	position: fixed;
 	text-align: center;
 	color: navy;
-	overflow-x: hidden;
 }
 @keyframes fade{
 	from{
@@ -107,7 +106,7 @@ body{
 	border-radius: 20px;
 	margin-left:250px;
 	margin-top: -50px;
-	z-index: 3;
+	z-index: 10;
 	background-image: linear-gradient(to right, teal,#fff);
 	overflow: hidden;
 }
@@ -135,6 +134,7 @@ body{
 	padding-left: 7px;
 	float: left;
 	font-weight: bold;
+	color: #000;
 }
 .desc .desc-sub:hover{
 	width: 170px;
@@ -150,6 +150,7 @@ body{
 	width: 30px;
 	height:30px;
 	background:#fff;
+	z-index: 11;
 }
 @media screen and (max-width: 1000px){
 	.desc .desc-img{
@@ -391,20 +392,18 @@ header .sticky{
 	cursor:pointer;
 	border-radius:3px;
 }
+
 @media screen and (max-width: 800px){
 	.Header-btn{
-		width: auto;
-	}
-}
-@media screen and (max-width: 800px){
-	.Header-btn{
-		margin-left: 0;
+		margin-left: 3%;
 		width:auto;
+		height: 50px;
 	}
 	.Header-btn button{
 		font-weight: normal;
 		text-transform: lowercase;
 		width: auto;
+		margin-top: 10px;
 	}
 }
 .header .Header-btn #dep{
@@ -490,7 +489,7 @@ header .sticky{
 		padding: 0;
 	}
 	header .sticky{
-		margin-top:65px;
+		margin-top:50px;
 	}
 }
 .content img{
