@@ -225,7 +225,7 @@ body{
 }
 .btn{
 	left:2%;
-	top:60px;
+	top:110px;
 	position: fixed;
 	display:none;
 	width: 40px;
@@ -264,11 +264,13 @@ body{
 .header-opt{
 	width:100%;
 	display: none;
-	background-image: linear-gradient(teal, #fff, transparent);
+	background:transparent;
 	color: navy;
+	height: 50px;
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
 	position: fixed;
+	text-transform: uppercase;
 }
 .header-opt .header-img{
 	width: 50px;
@@ -422,7 +424,7 @@ header .sticky{
 }
 @media screen and (max-width: 800px){
 	.content-1{
-		margin-top: 35px;
+		margin-top: 50px;
 	}
 }
 .content-1 .title{
@@ -488,7 +490,7 @@ header .sticky{
 		padding: 0;
 	}
 	header .sticky{
-		margin-top:50px;
+		margin-top:65px;
 	}
 }
 .content img{
