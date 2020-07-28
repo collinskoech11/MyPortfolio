@@ -583,3 +583,65 @@ header .sticky{
 		width: 100%;
 	}
 }
+.dep-wrapper .content{
+	color:navy;
+	font-family: sans-serif;
+	background-image: url(../img/motif-fond-ligne-hexagonale-elegante/19742.jpg);
+	background-repeat: repeat;
+}
+.dep-wrapper h2,h3,h4{
+	color: #000;
+}
+.name{
+	width:100%;
+	height: 150px;
+	font-size: 27px;
+	text-align: center;
+}
+.name h1{
+	text-transform: uppercase;
+}
+.name h2,h1{
+	padding: 20px;
+	padding-bottom:0;
+	padding-top: 0;
+}
+.contact{
+	margin-left: 40px;
+}
+.contact img{
+	margin-right: 10px;
+	width: 20px;
+	height:20px;
+}
+.contact .emaili,.phone,.location{
+	margin-bottom: 20px;
+}
+.summary {
+	width:100%;
+}
+.summary p{
+	padding: 30px;
+	font-weight: bold;
+}
+.skills{
+	
+}
+.skills h4,h5{
+	padding-left: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+h4 li{
+	padding-bottom: 0;
+}
+.skills h5{
+	font-style: italic;
+	padding-top: 0;
+}
+.skills .skill-list li{
+	padding-left: 40px;
+}
+.dep-wrapper p{
+ color: navy;
+}
