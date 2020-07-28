@@ -596,6 +596,11 @@ header .sticky{
 	font-size: 27px;
 	text-align: center;
 }
+@media screen and (max-width: 800px){
+	.name{
+		height: 220px;
+	}
+}
 .name h1{
 	text-transform: uppercase;
 }
