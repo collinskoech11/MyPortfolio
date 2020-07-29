@@ -401,7 +401,7 @@ header .sticky{
 	}
 	.Header-btn button{
 		font-weight: normal;
-		text-transform: lowercase;
+		text-transform: capitalize;
 		width: auto;
 		margin-top: 10px;
 	}
@@ -589,7 +589,12 @@ header .sticky{
 	background-image: url(../img/motif-fond-ligne-hexagonale-elegante/19742.jpg);
 	background-repeat: repeat;
 }
- 
+ .dep-wrapper a{
+ 	text-decoration: none;
+ 	color:navy;
+ 	font-weight: normal;
+ 	text-transform: lowercase;
+ }
 .name{
 	width:100%;
 	height: 150px;
