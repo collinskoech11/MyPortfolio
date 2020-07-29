@@ -395,7 +395,7 @@ header .sticky{
 
 @media screen and (max-width: 800px){
 	.Header-btn{
-		margin-left: 3%;
+		margin-left: 1%;
 		width:auto;
 		height: 50px;
 	}
