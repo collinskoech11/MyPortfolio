@@ -468,6 +468,9 @@ header .sticky{
 .os-wrapper{
 	display: none;
 }
+.os-wrapper p{
+	color:navy;
+}
 .dep-wrapper{
 	display: none;
 }

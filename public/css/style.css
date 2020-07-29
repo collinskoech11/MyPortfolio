@@ -391,6 +391,7 @@ header .sticky{
 	text-transform: uppercase;
 	cursor:pointer;
 	border-radius:3px;
+	background-color: navy;
 }
 
 @media screen and (max-width: 800px){
@@ -407,17 +408,14 @@ header .sticky{
 	}
 }
 .header .Header-btn #dep{
-	background-color:green;
 	font-weight:bold;
 	color:#fff;
 }
 .header .Header-btn #web{
-	background-color: orange;
-	color: rgb(32,17,48);
+	color: #fff;
 	font-weight: bold;
 }
 .header .Header-btn #os{
-	background-color: navy;
 	color:#fff;
 	font-weight: bold;
 }
@@ -437,6 +435,7 @@ header .sticky{
 	width: 100%;
 	display: inline-block;
 	height: auto;
+	color: navy;
 }
 .content-1 .lang .Cat{
 	width: auto;
@@ -447,26 +446,19 @@ header .sticky{
 	margin-right: 6%;
 	margin-left: 3%;
 }
-.content-1 .lang .Cat .css{
-	color: purple;
-}
-.content-1 .lang .Cat .javascript{
-	color:green;
-}
-.content-1 .lang .Cat .java{
-	color: yellow;
-}
-.content-1 .lang .Cat .cpp{
-	color:orange;
-}
-.content-1 .lang .Cat .python{
-	color: red;
-}
 .content-wrapper{
 	display: block;
 }
 .os-wrapper{
 	display: none;
+}
+.os-wrapper p{
+	color:navy;
+}
+@media screen and (max-width: 800px){
+	.os-wrapper p{
+		color:navy;
+	}
 }
 .dep-wrapper{
 	display: none;
@@ -526,29 +518,35 @@ header .sticky{
 	font-weight: bold;
 }
 .content .cokobox h4{
-	color:#fff;
+	color:#000;
 }
 .content .cokobox p{
-	color: red;
+	color: navy;
 	font-weight: bold;
 }
 .content .mysa h4{
 	color: black;
 }
 .content .mysa p{
-	color:#fff;
+	color:#000;
 }
 .content .fifth h4,p{
-	color: yellow;
+	color:white;
 }
 .content .one h4{
 	color: #fff;
 }
+.content .one p{
+	color:#fff;
+}
 .content .devco h4{
-	color: yellow;
+	color: #000;
 }
 .content .devco p{
 	color:navy;
+}
+.content .absolute p{
+	color: navy;
 }
 .content .content-img{
 	width: 60%;
