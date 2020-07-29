@@ -401,7 +401,7 @@ header .sticky{
 	}
 	.Header-btn button{
 		font-weight: normal;
-		text-transform: lowercase;
+		text-transform: capitalize;
 		width: auto;
 		margin-top: 10px;
 	}
