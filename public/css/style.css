@@ -26,6 +26,7 @@ body{
 	text-transform: uppercase;
 	background-color:rgb(0,0,0);
 	color: #fff;
+	overflow-y: scroll;
 }
 .stat .img-con{
 	width: 250px;
@@ -78,6 +79,12 @@ body{
 	position: fixed;
 	text-align: center;
 	color: navy;
+	overflow-y:scroll;
+	scroll-behavior: smooth;
+}
+.desc::-webkit-scrollbar{
+	width: 0;
+	height: 0;
 }
 @keyframes fade{
 	from{
