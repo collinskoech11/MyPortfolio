@@ -10,6 +10,7 @@ body{
 }
 .container{
 	animation: fade 8s;
+
 }
 .stat{
 	width: 100%;
@@ -79,7 +80,6 @@ body{
 	position: fixed;
 	text-align: center;
 	color: navy;
-	overflow-y:scroll;
 	scroll-behavior: smooth;
 }
 .desc::-webkit-scrollbar{
@@ -142,12 +142,14 @@ body{
 	float: left;
 	font-weight: bold;
 	color: #000;
+	z-index: 10;
 }
 .desc .desc-sub:hover{
 	width: 170px;
 	height: 30px;
 	transition: 2s;
 	overflow: hidden;
+	z-index: 13;
 }
 .desc .desc-sub:hover p{
 	opacity: 1;
