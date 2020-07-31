@@ -26,7 +26,7 @@ document.getElementById('os').addEventListener('click',
 	function() {
 		document.querySelector('.content-wrapper').style.display = 'none';
 		document.querySelector('.os-wrapper').style.display = 'block';
-		document.querySelector('.dep-wrapper').style.display = 'none;'
+		document.querySelector('.dep-wrapper').style.display = 'none';
 	});
 window.addEventListener("scroll", 
 	function() {
@@ -43,7 +43,7 @@ document.getElementById('low').addEventListener('click',
 	function(){
 		window.scrollTo({
 			top: 0,
-			behavior: "smooth"
+			behavior: "smooth`"
 		});
 	});
 	
