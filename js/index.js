@@ -30,6 +30,11 @@ document.getElementById('os').addEventListener('click',
 	});
 window.addEventListener("scroll", 
 	function() {
+		var button = document.querySelector("#low");
+		low.classList.toggle("show", window.scrollY > 100);
+		});
+window.addEventListener("scroll", 
+	function() {
 		var header = document.querySelector("#myHeader");
 		myHeader.classList.toggle("sticky", window.scrollY > 100);
 		document.querySelector('.header-opt').style.background = 'lightgray';
