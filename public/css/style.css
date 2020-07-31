@@ -403,15 +403,23 @@ header .sticky{
 
 @media screen and (max-width: 800px){
 	.Header-btn{
-		margin-left: 1%;
-		width:auto;
+		margin-left: 2%;
 		height: 50px;
+		width: 29%;
 	}
 	.Header-btn button{
 		font-weight: normal;
 		text-transform: capitalize;
-		width: auto;
+		width: 100%;
 		margin-top: 10px;
+	}
+}
+@media screen and (max-width: 600px){
+	.Header-btn{
+		width: auto;
+	}
+	.Header-btn button{
+		width: auto;
 	}
 }
 .header .Header-btn #dep{
