@@ -39,6 +39,24 @@ window.addEventListener("scroll",
 		myHeader.classList.toggle("sticky", window.scrollY > 100);
 		document.querySelector('.header-opt').style.background = 'lightgray';
 	});
+window.addEventListener("scroll",
+	function(){
+		const jamboone = document.querySelector(".jamboone");
+		jamboone.classList.toggle("scroll",window.scrollY > 400);
+
+		const jambotwo = document.querySelector(".jambotwo");
+		jambotwo.classList.toggle("scroll",window.scrollY > 600);
+
+		const jambothree = document.querySelector(".jambothree");
+		jambothree.classList.toggle("scroll",window.scrollY > 800);
+
+		const jambofour = document.querySelector(".jambofour");
+		jambofour.classList.toggle("scroll",window.scrollY > 1000);
+
+		const jambofive = document.querySelector(".jambofive");
+		jambofive.classList.toggle("scroll",window.scrollY > 1200);
+
+	})
 document.getElementById('low').addEventListener('click',
 	function(){
 		window.scrollTo({
