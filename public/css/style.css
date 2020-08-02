@@ -235,7 +235,7 @@ body{
 }
 .btn{
 	left:2%;
-	top:110px;
+	top:60px;
 	position: fixed;
 	display:none;
 	width: 40px;
@@ -244,6 +244,11 @@ body{
 	opacity: 0.75;
 	cursor:pointer;
 	border-radius: 5px;
+}
+.script{
+	top: 110px;
+	transform: rotate(360deg);
+	transition: 1s;
 }
 .btn .line{
 	width: 30px;
@@ -692,6 +697,7 @@ h4 li{
 }
 .show{
 	margin-right: 20px;
+	transform: rotate(-360deg);
 	transition: 1s;
 }
 .jamboone,.jambotwo,.jambothree,.jambofour,.jambofive{

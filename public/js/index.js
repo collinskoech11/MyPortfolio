@@ -41,6 +41,11 @@ window.addEventListener("scroll",
 	});
 window.addEventListener("scroll",
 	function(){
+		const btn =document.querySelector(".btn");
+		btn.classList.toggle("script", window.scrollY > 100);
+	});
+window.addEventListener("scroll",
+	function(){
 		const jamboone = document.querySelector(".jamboone");
 		jamboone.classList.toggle("scroll",window.scrollY > 400);
 
