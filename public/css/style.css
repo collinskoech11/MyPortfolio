@@ -707,7 +707,7 @@ h4 li{
 	opacity: 0;
 }
 .scroll{
-	animation: skew 0.5s;
+	animation: skew 2.5s;
 	transition:smooth;
 }
 @keyframes skew{
