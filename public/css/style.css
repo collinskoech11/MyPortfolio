@@ -381,9 +381,10 @@ header .sticky{
 	top:0;
 	position: fixed;
 	right:0;
-	background-color: lightgray;
+	background-color: transparent;
 	margin-top: 0;
 	transition: 0.2s;
+	border:none;
 }
 .Header-btn{
 	width: 25%;
