@@ -3,6 +3,8 @@ function() {
 	document.querySelector('.desc').style.display = 'block';
 	document.querySelector('#btn').style.display = 'none';
 	document.querySelector('.header-opt').style.display = 'none';
+	const btn = document.querySelector('.btn');
+	btn.classList.toggle("script");
 });
 document.querySelector('.close').addEventListener('click',
 function() {
