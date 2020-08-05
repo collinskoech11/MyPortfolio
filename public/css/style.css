@@ -584,6 +584,9 @@ header .sticky{
 .content .absolute p{
 	color: navy;
 }
+.content .DevcoKenya p{
+	color: rgb(255,0,255);
+}
 .content .content-img{
 	width: 60%;
 	height: auto;
