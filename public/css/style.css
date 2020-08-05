@@ -412,19 +412,23 @@ header .sticky{
 @media screen and (max-width: 800px){
 	.Header-btn{
 		margin-left: 2%;
+		margin-top: 20px;
 		height: 50px;
 		width: 29%;
 	}
 	.Header-btn button{
 		font-weight: normal;
+		font-size: 15px;
 		text-transform: capitalize;
 		width: 100%;
+		margin-left: 4px;
 		margin-top: 10px;
 	}
 }
 @media screen and (max-width: 600px){
 	.Header-btn{
 		width: auto;
+		margin-top: 20px;
 	}
 	.Header-btn button{
 		width: auto;
@@ -433,6 +437,8 @@ header .sticky{
 @media screen and (max-width: 500px){
 	.Header-btn{
 		margin: 0;
+		margin-top: 20px;
+		margin-left: 1px;
 	}
 	.Header-btn button{
 		margin: 0;
