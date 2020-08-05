@@ -371,8 +371,8 @@ body{
 	width: 72%;
 	height: auto;
 	padding: 10px;
-	border:2px solid rgb(0,0,0,0.1);
 	border-radius: 10px;
+	border:2px solid rgb(0,0,0,0.1);
 	float: right;
 	margin-top:0;
 	margin-right: 2%;
@@ -498,7 +498,6 @@ header .sticky{
 	width: 72%;
 	height: auto;
 	padding: 10px;
-	border:2px solid rgb(0,0,0,0.1);
 	border-radius: 10px;
 	float: right;
 	margin-top: 5px;
