@@ -38,4 +38,5 @@ window.addEventListener("scroll",
 		var header = document.querySelector("#myHeader");
 		myHeader.classList.toggle("sticky", window.scrollY > 100);
 		document.querySelector('.header-opt').style.background = 'lightgray';
+		
 	});
