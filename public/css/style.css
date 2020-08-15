@@ -198,9 +198,17 @@ body{
 .desc .my-desc .bio p{
 	color: navy;
 }
+.desc .my-desc .socials .git {
+	height: 40px;
+	color: navy;
+}
+.desc .my-desc .socials .git a{
+	color:navy;
+}
 .desc .my-desc .organisation{
 	margin-left: -10%;
 	font-weight: bold;
+	height: 40px;
 }
 .desc .my-desc .organisation p{
 	color: navy;
