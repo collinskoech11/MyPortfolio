@@ -319,7 +319,8 @@ body{
 @media screen and (max-width: 800px){
 	.desc{
 		display:none;
-		width: 45%;
+		width: 55%;
+		padding-left: 30px;
 		z-index: 3;
 		background-color: lightgray;
 		height: auto;
