@@ -322,6 +322,8 @@ body{
 		width: 45%;
 		z-index: 3;
 		background-color: lightgray;
+		height: auto;
+		padding-bottom: 50px;
 	}
 	.close{
 		display:flex;
