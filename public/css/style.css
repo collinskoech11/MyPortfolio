@@ -81,6 +81,8 @@ body{
 	text-align: center;
 	color: navy;
 	scroll-behavior: smooth;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
 .desc::-webkit-scrollbar{
 	width: 0;
