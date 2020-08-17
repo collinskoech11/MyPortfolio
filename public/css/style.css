@@ -384,9 +384,10 @@ body{
 	width: 72%;
 	height: auto;
 	padding: 10px;
-	border-radius: 10px;
-	border:2px solid rgb(0,0,0,0.1);
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 10px;
 	float: right;
+	background:rgb(0,0,255,0.3);
 	margin-top:0;
 	margin-right: 2%;
 	display: block;
@@ -400,6 +401,7 @@ header .sticky{
 	position: fixed;
 	right:0;
 	background-color: transparent;
+	background:rgb(0,0,255,0.3);
 	margin-top: 0;
 	transition: 0.2s;
 	border:none;
