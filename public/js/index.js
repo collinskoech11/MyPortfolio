@@ -39,7 +39,6 @@ window.addEventListener("scroll",
 	function() {
 		var header = document.querySelector("#myHeader");
 		myHeader.classList.toggle("sticky", window.scrollY > 100);
-		document.querySelector('.header-opt').style.background = 'lightgray';
 	});
 window.addEventListener("scroll",
 	function(){
