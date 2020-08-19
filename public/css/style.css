@@ -399,6 +399,11 @@ body{
 #myheader{
 
 }
+.content-1 .cpp img{
+	width: 60px;
+	height: 50px;
+	margin-top:-10px;
+}
 header .sticky{
 	top:0;
 	position: fixed;
