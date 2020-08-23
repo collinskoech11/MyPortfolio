@@ -177,6 +177,9 @@ body{
 		margin-left: 150px;
 	}
 }
+.desc .my-desc{
+	text-align: center;
+}
 .desc .my-desc .Name{
 	height: 50px;
 	width: 100%;
@@ -206,27 +209,34 @@ body{
 	color:navy;
 }
 .desc .my-desc .organisation{
-	margin-left: -10%;
 	font-weight: bold;
-	height: 40px;
+	height: auto;
+}
+.desc .my-desc .organisation a{
+	color:navy;
+	text-decoration: none;
+
 }
 .desc .my-desc .organisation p{
 	color: navy;
 }
 .desc .my-desc .socials{
 	display: inline-block;
+	width: auto;
 	width: 100%;
+	padding-left: 25%;
+	padding-right:25%;
 }
 .desc .my-desc .socials a{
 	color: rgb(0,0,0);
 	text-decoration: none;
 	font-weight: bold;
 }
-.desc .my-desc .socials .twitter,.instagram,.github,.linked-in,.email{
-	width:5%;
+.desc .my-desc .socials .twitter,.instagram,.github,.linked-in,.email,.stack,.slack{
+	width:auto;
 	float: left;
-	margin-left: 10%;
-	align-items: left;
+	margin-left: 1%;
+	align-items: center;
 	margin-top: 4px;
 }
 .desc .my-desc .socials .twitter a{
@@ -288,7 +298,8 @@ body{
 .header-opt{
 	width:100%;
 	display: none;
-	background:rgb(0,0,255,0.3);
+	background:rgb(153,153,255);
+	text-shadow:#fff 1px 0 10px;
 	color: navy;
 	height: 50px;
 	border-bottom-right-radius: 5px;
@@ -410,7 +421,7 @@ header .sticky{
 	position: fixed;
 	right:0;
 	background-color: transparent;
-	background:rgb(0,0,255,0.3);
+	background:rgb(153,153,255);
 	margin-top: 0;
 	transition: 0.2s;
 	border:none;
@@ -543,6 +554,10 @@ header .sticky{
 	.header{
 		margin-right: 0;
 		padding: 0;
+		height:50px;
+	}
+	.Header-btn{
+		margin-top: 10px;
 	}
 	header .sticky{
 		margin-top:50px;
