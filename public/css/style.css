@@ -185,8 +185,7 @@ body{
 	width: 100%;
 	text-align: center;
 	margin-top:50px;
-	margin-left: -5%;
-	font-size: 26px;
+	font-size: 30px;
 }
 @media screen and (max-width: 800px){
 	
@@ -195,8 +194,8 @@ body{
 	}
 }
 .desc .my-desc .bio{
-	margin-left: -10%;
 	height: 40px;
+	font-size: 25px;
 }
 .desc .my-desc .bio p{
 	color: navy;
@@ -222,10 +221,11 @@ body{
 }
 .desc .my-desc .socials{
 	display: inline-block;
-	width: auto;
+	height:auto;
 	width: 100%;
-	padding-left: 25%;
-	padding-right:25%;
+	padding-left: 10%;
+	padding-right: 9%;
+	margin-top: 20%;
 }
 .desc .my-desc .socials a{
 	color: rgb(0,0,0);
@@ -235,9 +235,12 @@ body{
 .desc .my-desc .socials .twitter,.instagram,.github,.linked-in,.email,.stack,.slack{
 	width:auto;
 	float: left;
-	margin-left: 1%;
 	align-items: center;
-	margin-top: 4px;
+	margin-top: 10px;
+	width:20%;
+	margin-left: 10%;
+	height: 20%;
+
 }
 .desc .my-desc .socials .twitter a{
 	color: navy;
@@ -249,8 +252,8 @@ body{
 	color: black;
 }
 .desc .my-desc .socials img{
-	width: 30px;
-	height: 30px;
+	width: 100%;
+	height:100%;
 }
 .btn{
 	left:2%;
@@ -345,6 +348,9 @@ body{
 		background-color: rgb(153,153,255,0.95);
 		height: auto;
 		padding-bottom: 50px;
+	}
+	.desc .my-desc .bio{
+		font-size: 20px ;
 	}
 	.close{
 		display:flex;
