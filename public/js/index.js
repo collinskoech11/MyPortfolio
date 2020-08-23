@@ -38,7 +38,7 @@ window.addEventListener("scroll",
 window.addEventListener("scroll", 
 	function() {
 		var header = document.querySelector("#myHeader");
-		myHeader.classList.toggle("sticky", window.scrollY > 100);
+		myHeader.classList.toggle("sticky", window.scrollY > 50);
 	});
 window.addEventListener("scroll",
 	function(){
