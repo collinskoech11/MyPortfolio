@@ -191,7 +191,7 @@ body{
 @media screen and (max-width: 800px){
 	
 	.desc .my-desc .Name{
-		height:70px;
+		height:auto;
 	}
 }
 .desc .my-desc .bio{
@@ -688,7 +688,7 @@ header .sticky{
 }
 @media screen and (max-width: 800px){
 	.name{
-		height: 220px;
+		height: auto ;
 	}
 }
 .name h1{
