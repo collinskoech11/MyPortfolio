@@ -225,14 +225,14 @@ body{
 	width: 100%;
 	padding-left: 10%;
 	padding-right: 9%;
-	margin-top: 20%;
+	margin-top: 10%;
 }
 .desc .my-desc .socials a{
 	color: rgb(0,0,0);
 	text-decoration: none;
 	font-weight: bold;
 }
-.desc .my-desc .socials .twitter,.instagram,.github,.linked-in,.email,.stack,.slack{
+.desc .my-desc .socials .twitter,.instagram,.github,.linked-in,.email,.stack,.slack,.facebook,.devcoo{
 	width:auto;
 	float: left;
 	align-items: center;
