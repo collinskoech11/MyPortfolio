@@ -192,6 +192,9 @@ body{
 	.desc .my-desc .Name{
 		height:auto;
 	}
+	.desc .my-desc{
+		margin-left: -30px;
+	}
 }
 .desc .my-desc .bio{
 	height: 40px;
@@ -232,15 +235,15 @@ body{
 	text-decoration: none;
 	font-weight: bold;
 }
-.desc .my-desc .socials .twitter,.instagram,.github,.linked-in,.email,.stack,.slack,.facebook,.devcoo{
+.desc .my-desc .socials .twitter,.instagram,.github,.linked-in,.email,.stack,.slack,.facebook,.devcee{
 	width:auto;
 	float: left;
 	align-items: center;
 	margin-top: 10px;
 	width:20%;
-	margin-left: 10%;
+	margin-left: 10px;
 	height: 20%;
-
+	padding: 0;
 }
 .desc .my-desc .socials .twitter a{
 	color: navy;
