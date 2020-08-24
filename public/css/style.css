@@ -235,15 +235,19 @@ body{
 	text-decoration: none;
 	font-weight: bold;
 }
-.desc .my-desc .socials .twitter,.instagram,.github,.linked-in,.email,.stack,.slack,.facebook,.devcee{
+.desc .my-desc .socials .soci{
 	width:auto;
 	float: left;
 	align-items: center;
 	margin-top: 10px;
-	width:20%;
+	width:15%;
 	margin-left: 10px;
-	height: 20%;
+	height: 15%;
 	padding: 0;
+}
+.desc .my-desc .socials .soci:hover{
+	width: 20%;
+	height: 10%;
 }
 .desc .my-desc .socials .twitter a{
 	color: navy;
