@@ -247,7 +247,7 @@ body{
 	transition: 1s;
 }
 .desc .my-desc .socials .soci:hover{
-	animation: troll 1s linear infinite;
+	animation: troll 0.5s linear infinite;
 	transition: 1s;
 }
 @keyframes troll{
@@ -255,9 +255,15 @@ body{
 		transform: rotate(0deg);
 		transition: 1s;
 	}
-	50%{
+	25%{
+		transform: rotate(45deg);
+		transition: 1s;
+		margin-top: 0.5px;
+	}
+	75%{
 		transform: rotate(-45deg);
 		transition: 1s;
+		margin-top: 0;
 	}
 	100%{
 		transform: rotate(0deg);
