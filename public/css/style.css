@@ -248,6 +248,8 @@ body{
 .desc .my-desc .socials .soci:hover{
 	width: 20%;
 	height: 10%;
+	margin-top: 0;
+	transition: 1.5s;
 }
 .desc .my-desc .socials .twitter a{
 	color: navy;
