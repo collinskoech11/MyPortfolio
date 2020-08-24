@@ -246,12 +246,12 @@ body{
 	padding: 0;
 }
 .desc .my-desc .socials .soci:hover{
-	width: 20%;
-	height: 10%;
-	margin-top: 0;
-	transition: 1.5s;
-	margin-left: 0;
+	transform: rotate(360deg);
+	transition: 1s;
+	margin-left: 5px;
+	margin-right: 5px;
 }
+
 .desc .my-desc .socials .twitter a{
 	color: navy;
 }
