@@ -247,12 +247,23 @@ body{
 	transition: 1s;
 }
 .desc .my-desc .socials .soci:hover{
-	transform: rotate(-360deg);
+	animation: troll 1s linear infinite;
 	transition: 1s;
-	margin-left: 0;
-	margin-right: 10px;
 }
-
+@keyframes troll{
+	0%{
+		transform: rotate(0deg);
+		transition: 1s;
+	}
+	50%{
+		transform: rotate(-45deg);
+		transition: 1s;
+	}
+	100%{
+		transform: rotate(0deg);
+		transition: 1s;
+	}
+}
 .desc .my-desc .socials .twitter a{
 	color: navy;
 }
