@@ -250,6 +250,7 @@ body{
 	height: 10%;
 	margin-top: 0;
 	transition: 1.5s;
+	margin-left: 0;
 }
 .desc .my-desc .socials .twitter a{
 	color: navy;
