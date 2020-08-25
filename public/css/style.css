@@ -254,20 +254,20 @@ body{
 	0%{
 		transform: rotate(0deg);
 		transition: 1s;
-		margin-right: 10px;
-		margin-left: 0px;
+		margin-right: 5px;
+		margin-left: 5px;
 	}
 	25%{
 		transform: rotate(45deg);
 		transition: 1s;
-		margin-right: 0px;
-		margin-left: 10px;
+		margin-right: 10px;
+		margin-left: 0px;
 	}
 	75%{
 		transform: rotate(-45deg);
 		transition: 1s;
-		margin-right: 10px;
-		margin-left: 0px;
+		margin-right: 5px;
+		margin-left: 5px;
 	}
 	100%{
 		transform: rotate(0deg);
