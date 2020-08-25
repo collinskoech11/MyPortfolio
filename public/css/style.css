@@ -254,22 +254,26 @@ body{
 	0%{
 		transform: rotate(0deg);
 		transition: 1s;
+		margin-right: 10px;
+		margin-left: 0px;
 	}
 	25%{
 		transform: rotate(45deg);
 		transition: 1s;
-		margin-top: 5px;
-		margin-bottom:5px;
+		margin-right: 0px;
+		margin-left: 10px;
 	}
 	75%{
 		transform: rotate(-45deg);
 		transition: 1s;
-		margin-top: 5px;
-		margin-bottom:5px;
+		margin-right: 10px;
+		margin-left: 0px;
 	}
 	100%{
 		transform: rotate(0deg);
 		transition: 1s;
+		margin-left: 10px;
+		margin-right: 0;
 	}
 }
 .desc .my-desc .socials .twitter a{
