@@ -833,3 +833,16 @@ h4 li{
 		opacity: 1;
 	}
 }
+.journey{
+	top:100px;
+	left:10%;
+	position: fixed;
+	width:150px;
+	height: 150px;
+	border-radius: 75px;
+	background-color: navy;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+}
