@@ -834,8 +834,9 @@ h4 li{
 	}
 }
 .journey{
-	top:100px;
-	left:10%;
+	top:150px;
+	text-align: center;
+	right:5%;
 	position: fixed;
 	width:150px;
 	height: 150px;
@@ -844,5 +845,9 @@ h4 li{
 	color: #fff;
 	font-weight: bold;
 	text-transform: uppercase;
-	
+	z-index: 10;
+	cursor:pointer;
+}
+.journey h3{
+	padding-top: 45%;
 }
