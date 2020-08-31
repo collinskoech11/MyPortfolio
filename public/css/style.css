@@ -845,9 +845,19 @@ h4 li{
 	color: #fff;
 	font-weight: bold;
 	text-transform: uppercase;
-	z-index: 10;
+	z-index:3;
 	cursor:pointer;
 }
 .journey h3{
 	padding-top: 45%;
+}
+@media screen and (max-width: 800px){
+	.journey{
+		width: 75px;
+		height: 75px;
+		border-radius: 37px;
+	}
+	.journey h3{
+		font-size: 14px;
+	}
 }
