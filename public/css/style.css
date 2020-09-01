@@ -840,7 +840,7 @@ h4 li{
 	background-color: navy;
 	color: #fff;
 	font-weight: bold;
-	text-transform: uppercase;
+	text-transform:capitalize;
 	z-index:3;
 	cursor:pointer;
 }
@@ -862,11 +862,16 @@ h4 li{
 	}
 }
 .calendar{
-	width: 100%;
-	height: auto;
 	text-align: center;
 	justify-content: center;
 	align-items: center;
-	padding: 10% auto;
 	background-color: rgb(0,0,255,0.33);
+	list-style: none;
+	color: #fff;
+}
+.calendar a{
+	color: navy;
+}
+.calendar ul{ 
+	text-decoration: none;
 }
