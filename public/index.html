@@ -10,6 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="css/gallery.css">
 	<link rel="icon" type="text/css" href="img/me.png">
 	<link rel="stylesheet"  href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
 </head>
 <body>
 	<div class="stat">
@@ -257,23 +258,29 @@
 	</div>
 	<div class="content-wrapper">
 		<div class="content">
+			<div class="calendar">
+   				 <!-- Loading stuff -->
+   			 Loading the data just for you.
+			</div>
+		</div>
+		<div class="content">
 			<div class="gallery-cont">
-						<div class="gallery-container w-2 h-1">
+				<div class="gallery-container w-2 h-1">
 					<div class="gallery-item">
 					<div class="image"> 
 						<img src="https://source.unsplash.com/1100x900/?programmer" alt="nature">
 					</div>	
 					<div class="text">html</div>
+					</div>
 				</div>
-			</div>
 				<div class="gallery-container w-4 h-1">
 					<div class="gallery-item">
-					<div class="image"> 
-						<img src="https://source.unsplash.com/1100x900/?css" alt="people">
-					</div>	
-					<div class="text">css</div>
+						<div class="image"> 
+							<img src="https://source.unsplash.com/1100x900/?css" alt="people">
+						</div>	
+						<div class="text">css</div>
+					</div>
 				</div>
-			</div>
 				<div class="gallery-container w-3 h-1">
 					<div class="gallery-item">
 					<div class="image"> 
@@ -454,6 +461,10 @@
 	</div>
 
 	<script src="js/index.js"></script>
+	<script> 
+		new GitHubCalendar(".calendar", "collinskoech11");
+	</script>
+	<script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
 	<!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="/__/firebase/7.17.1/firebase-app.js"></script>
 
