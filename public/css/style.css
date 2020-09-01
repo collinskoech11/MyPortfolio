@@ -904,6 +904,7 @@ h4 li{
 }
 .calendar a{
 	color: navy;
+	padding: 1px;
 }
 .calendar ul{ 
 	text-decoration: none;
