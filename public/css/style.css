@@ -892,12 +892,14 @@ h4 li{
 		margin-bottom: 20px;
 		margin-left: 40%;
 		transform: rotate(0deg);
+		transition:2s;
 	}
 	to{
 		margin-top: 20px;
 		margin-bottom: 0;
 		margin-left: 0;
 		transform: rotate(360deg);
+		transition:2s;
 	}
 }
 .calendar a{
