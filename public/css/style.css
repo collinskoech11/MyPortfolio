@@ -910,3 +910,22 @@ h4 li{
 .calendar ul{ 
 	text-decoration: none;
 }
+.tweetPop{
+	background-color:rgb(0,0,255,0.33); 
+	top: 100px;
+	position: fixed;
+	right: 50px;
+	width:70%;
+	height: 500px;
+	z-index: 4;
+	border: 1px solid rgb(0,0,0);
+	border-radius: 10px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	display:none;
+}
+@media screen and (max-width: 800px){
+	.tweetPop{
+		left: 100px;
+	}
+}

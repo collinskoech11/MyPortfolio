@@ -9,6 +9,7 @@ function() {
 document.querySelector('.close').addEventListener('click',
 function() {
 	document.querySelector('.desc').style.display = 'none';
+	document.querySelector('.tweetPop').style.display = 'none';
 	document.querySelector('#btn').style.display = 'block';
 	document.querySelector('.header-opt').style.display = 'inline-block';
 });
@@ -71,5 +72,8 @@ document.getElementById('low').addEventListener('click',
 		});
 	});
 
-
+document.getElementById('twitter').addEventListener('click',
+	function(){
+		document.querySelector(".tweetPop").style.display = "block";
+	})
 	
