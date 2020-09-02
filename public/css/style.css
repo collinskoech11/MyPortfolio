@@ -843,6 +843,7 @@ h4 li{
 	text-transform:capitalize;
 	z-index:3;
 	cursor:pointer;
+	display: none;
 }
 .journey h3{
 	font-size: 14px;
