@@ -928,6 +928,10 @@ h4 li{
 	width: 0;
 	height: 0;
 }
+.tweetPop .close{
+	display: block;
+	color: #fff;
+}
 @media screen and (max-width: 800px){
 	.tweetPop{
 		left: 100px;
