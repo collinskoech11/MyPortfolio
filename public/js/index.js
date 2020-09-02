@@ -13,11 +13,11 @@ function() {
 	document.querySelector('#btn').style.display = 'block';
 	document.querySelector('.header-opt').style.display = 'inline-block';
 });
-/**document.getElementById('.closeo').addEventListener('click',
+document.getElementById('closeo').addEventListener('click',
 	function(){
 	document.querySelector('.tweetPop').style.display = 'none';
 	});
-	**/
+
 document.getElementById('dep').addEventListener('click',
 	function() {
 		document.querySelector('.content-wrapper').style.display = 'none';
