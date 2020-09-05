@@ -13,6 +13,7 @@
 	height:100%;
 	width: 100%;
 	overflow:hidden;
+	z-index: -3;
 }
 .gallery-item .image img{
 	width: 100%;
@@ -20,6 +21,7 @@
 	object-fit: cover;
 	object-position: 50% 50%;
 	cursor: pointer;
+	z-index: -3;
 	transition: .5s ease-in-out;
 }
 .gallery-item:hover .image img{
@@ -34,7 +36,7 @@
 	color: #fff;
 	font-size: 25px;
 	pointer-events: none;
-	z-index: 4;
+	z-index: -2;
 	transition: 3s ease-in-out;
 	-webkit-backdrop-filter:blur(5px) saturate(1.8);
 	-backdrop-filter:blur(5px) saturate(1.8);
