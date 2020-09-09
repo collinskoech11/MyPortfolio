@@ -878,30 +878,23 @@ h4 li{
 	}
 }
 .calendar .load{
+	width:auto;
+	height:auto;
+	animation: jump 1s linear infinite;
+	margin: 0 auto;
+}
+.calendar .load img{
 	width: 100px;
-	padding-top:20px;
-	height:50px;
-	border-radius: 25px;
-	margin-top: 0;
-	margin-bottom: 20px;
-	background-color: navy;
-	animation: jump 2s linear infinite;
-	margin-left: 40%;
+	height: 100px;
 }
 @keyframes jump{
 	from{
-		margin-top: 0;
-		margin-bottom: 20px;
-		margin-left: 40%;
 		transform: rotate(0deg);
-		transition:2s;
+		transition:1s;
 	}
 	to{
-		margin-top: 20px;
-		margin-bottom: 0;
-		margin-left: 0;
-		transform: rotate(-180deg);
-		transition:2s;
+		transform: rotate(-360deg);
+		transition:1s;
 	}
 }
 .calendar a{
