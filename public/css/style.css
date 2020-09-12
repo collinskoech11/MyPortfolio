@@ -880,7 +880,7 @@ h4 li{
 .calendar .load{
 	width:auto;
 	height:auto;
-	animation: jump 1s linear infinite;
+	animation: jump 1.5s linear infinite;
 	margin: 0 auto;
 }
 .calendar .load img{
@@ -890,11 +890,11 @@ h4 li{
 @keyframes jump{
 	from{
 		transform: rotate(0deg);
-		transition:1s;
+		transition:1.5s;
 	}
 	to{
 		transform: rotate(-360deg);
-		transition:1s;
+		transition:1.5s;
 	}
 }
 .calendar a{
@@ -913,7 +913,6 @@ h4 li{
 	width:70%;
 	height: 80%;
 	z-index: 4;
-	border: 1px solid rgb(0,0,0);
 	border-radius: 10px;
 	overflow-x: hidden;
 	overflow-y: scroll;
