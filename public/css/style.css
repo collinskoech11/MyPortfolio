@@ -28,6 +28,18 @@ body{
 	background-attachment: fixed;
 	color: #fff;
 	overflow-y: scroll;
+	transition: 2s;
+}
+.stat .tab{
+	position:absolute;
+	top:90vh;
+	right:10%;
+}
+.stat .tab button{
+	border:none;
+	color: #fff;
+	font-weight: bold;
+	background: transparent;
 }
 .move{
 	animation: fadeOut 9s;

@@ -16,7 +16,7 @@ function() {
 document.querySelector('.tab').addEventListener('click',
 function(){
 	const stat = document.querySelector('.stat');
-	stat.classList.toggle('move',)
+	stat.classList.toggle('move', behavior='smooth')
 });
 document.getElementById('closeo').addEventListener('click',
 	function(){
