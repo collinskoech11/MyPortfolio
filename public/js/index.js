@@ -13,6 +13,11 @@ function() {
 	document.querySelector('#btn').style.display = 'block';
 	document.querySelector('.header-opt').style.display = 'inline-block';
 });
+document.querySelector('.tab').addEventListener('click',
+function(){
+	const stat = document.querySelector('.stat');
+	stat.classList.toggle('move',)
+});
 document.getElementById('closeo').addEventListener('click',
 	function(){
 	document.querySelector('.tweetPop').style.display = 'none';

@@ -20,14 +20,21 @@ body{
 	text-align: center;
 	justify-content: center;
 	top:0;
-	opacity: 0;
-	animation: fadeOut 9s;
 	font-size: 50px;
-	z-index: -3;
+	z-index: 3;
 	text-transform: uppercase;
-	background-color:rgb(0,0,0);
+	background-image:url(../img/bgl.jpg);
+	background-size: cover;
+	background-attachment: fixed;
 	color: #fff;
 	overflow-y: scroll;
+}
+.move{
+	animation: fadeOut 9s;
+	opacity:0;
+	z-index: -3;
+	display: none;
+	transition: 2s;
 }
 .stat .img-con{
 	width: 250px;
@@ -37,11 +44,11 @@ body{
 	margin-left: 40%;
 }
 .stat h1{
-	color: navy;
+	color:#fff;
 }
 .stat h2{
 	padding-top: 50px;
-	color: navy;
+	color:#fff;
 }
 .stat img{
 	width: 100%;
