@@ -32,8 +32,13 @@ body{
 }
 .stat .tab{
 	position:absolute;
-	top:60vh;
+	top:75vh;
 	right:10%;
+}
+@media screen and (max-width:800px){
+	.stat .tab{
+		top:60vh;
+	}
 }
 .stat .tab button{
 	border:none;
@@ -51,14 +56,14 @@ body{
 	background-color: rgb(255, 255,255,0.3);
 }
 .move{
-	animation: fadeOut 3s;
 	opacity:0;
 	margin-left:-1000px;
 	z-index: -3;
 	transition: 2s;
 }
 .move h1{
-	transform: rotate(360deg);
+	color:red;
+	transition:1s;
 }
 .move button{
 	transform: rotate(360deg);
