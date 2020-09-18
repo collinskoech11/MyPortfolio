@@ -53,6 +53,7 @@ body{
 .move{
 	animation: fadeOut 3s;
 	opacity:0;
+	margin-left:-1000px;
 	z-index: -3;
 	transition: 2s;
 }
