@@ -8,6 +8,10 @@ body{
 	font-family: sans-serif;
 	background-color: rgb(153,153,255,0.5);
 }
+body::-webkit-scrollbar{
+	width: 0;
+	height:0;
+}
 .container{
 	animation: fade 8s;
 
@@ -15,7 +19,6 @@ body{
 .stat{
 	width: 100%;
 	height: 100%;
-	margin-left: -2000px;
 	position: fixed;
 	top:0;
 	text-align: center;
@@ -48,21 +51,27 @@ body{
 	position: fixed;
 	top:0;
 	text-align: center;
+	margin-left: -2000px;
 	justify-content: center;
 	top:0;
 	font-size: 50px;
 	z-index: 3;
-	text-transform: uppercase;
+	padding-top: 5%;
+	text-transform: capitalize;
 	background-image:url(../img/bgl.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	color: #fff;
 	overflow-y: scroll;
-	transition: 2s;
+	transition: 1s;
 }
 .stato .theme{
 	width: auto;
 	margin: auto 30%;
+}
+.stato .theme .darker button{
+	background-color:rgb(0,0,0,0.9);
+	border:1px solid rgb(0, 0,0)
 }
 .stato button{
 	width:200px;
@@ -73,9 +82,20 @@ body{
 	margin-top: 60px;
 	margin-left:10%;
 	border-radius: 20px;
+	border:1px solid white;
 	text-transform: uppercase;
 	font-weight: bold;
 	float: left;
+	cursor:pointer;
+}
+.moveo{
+	margin-left: 0;
+	transition: 1s;
+}
+.moveoo{
+	margin-left: -1000px;
+	transition:1s;
+	display: none;
 }
 #closeo{
 	position:fixed;
@@ -101,10 +121,10 @@ body{
 	background-color: rgb(255, 255,255,0.3);
 }
 .move{
-	opacity:0;
-	margin-left:-1000px;
+	margin-right:-1000px;
 	z-index: -3;
-	transition: 2s;
+	transition: 1s;
+	display: none;
 }
 .move h1{
 	color:red;

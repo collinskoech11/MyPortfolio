@@ -17,7 +17,18 @@ document.querySelector('.tab').addEventListener('click',
 function(){
 	const stat = document.querySelector('.stat');
 	stat.classList.toggle('move', behavior='smooth')
+	
 });
+document.querySelector('.tab').addEventListener('click',
+function(){
+	const stato = document.querySelector('.stato')
+	stato.classList.toggle('moveo', behavior="smooth")
+});
+document.querySelector('.dark').addEventListener('click',
+function(){
+	const moveo = document.querySelector('.moveo')
+	moveo.classList.toggle('moveoo', behavior ="smooth")
+})
 document.getElementById('closeo').addEventListener('click',
 	function(){
 	document.querySelector('.tweetPop').style.display = 'none';
