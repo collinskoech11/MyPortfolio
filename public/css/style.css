@@ -35,6 +35,9 @@ body{
 	top:75vh;
 	right:10%;
 }
+#closeo{
+	position:fixed;
+}
 @media screen and (max-width:800px){
 	.stat .tab{
 		top:60vh;
