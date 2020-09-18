@@ -15,6 +15,7 @@ body{
 .stat{
 	width: 100%;
 	height: 100%;
+	margin-left: 1000px;
 	position: fixed;
 	top:0;
 	text-align: center;
@@ -34,6 +35,30 @@ body{
 	position:absolute;
 	top:75vh;
 	right:10%;
+}
+@media screen and (max-width){
+	.stat .tab{
+		top:85vh;
+		right: 15%;
+	}
+}
+.stato{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top:0;
+	text-align: center;
+	justify-content: center;
+	top:0;
+	font-size: 50px;
+	z-index: 3;
+	text-transform: uppercase;
+	background-image:url(../img/bgl.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+	overflow-y: scroll;
+	transition: 2s;
 }
 #closeo{
 	position:fixed;
