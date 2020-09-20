@@ -29,6 +29,11 @@ function(){
 	const moveo = document.querySelector('.moveo')
 	moveo.classList.toggle('moveoo', behavior ="smooth")
 })
+document.querySelector('.darko').addEventListener('click',
+function(){
+	const moveo = document.querySelector('.moveo')
+	moveo.classList.toggle('moveoo', behavior ="smooth")
+})
 document.getElementById('closeo').addEventListener('click',
 	function(){
 	document.querySelector('.tweetPop').style.display = 'none';

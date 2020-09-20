@@ -39,19 +39,14 @@ body::-webkit-scrollbar{
 	top:75vh;
 	right:10%;
 }
-@media screen and (max-width){
-	.stat .tab{
-		top:85vh;
-		right: 15%;
-	}
-}
+
 .stato{
 	width: 100%;
 	height: 100%;
 	position: fixed;
 	top:0;
 	text-align: center;
-	margin-left: -2000px;
+	margin-left: 100%;
 	justify-content: center;
 	top:0;
 	font-size: 50px;
@@ -90,12 +85,10 @@ body::-webkit-scrollbar{
 }
 .moveo{
 	margin-left: 0;
-	transition: 1s;
 }
 .moveoo{
-	margin-left: -1000px;
-	transition:1s;
-	display: none;
+	margin-left: -100%;
+	opacity: 0;
 }
 #closeo{
 	position:fixed;
@@ -123,7 +116,6 @@ body::-webkit-scrollbar{
 .move{
 	margin-right:-1000px;
 	z-index: -3;
-	transition: 1s;
 	display: none;
 }
 .move h1{
@@ -158,6 +150,23 @@ body::-webkit-scrollbar{
 	}
 	.stat .img-con{
 		margin-left: 30%;
+	}
+}
+@media screen and (max-width:600px){
+	.stat .tab{
+		top:85vh;
+		right: 15%;
+	}
+}
+@media screen and (max-width:800px){
+	.stat , .stato h1,h2{
+		font-size: 15px;
+	}
+	.stat , .stato h1{
+		font-size: 15px;
+	}
+	.stat .tab{
+		top:60vh;
 	}
 }
 @media screen and (max-width: 600px){
