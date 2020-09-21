@@ -455,6 +455,7 @@ body::-webkit-scrollbar{
 	height: 50px;
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
+	margin-top: -18px;
 	position: fixed;
 	text-transform: uppercase;
 }
@@ -550,7 +551,7 @@ body::-webkit-scrollbar{
 	padding: 10px;
 	float: right;
 	background-color: rgb(153,153,255);
-	margin-top:0;
+	margin-top:-18px;
 	margin-right: 2%;
 	display: block;
 	color: navy;
@@ -608,6 +609,10 @@ header .sticky{
 	border-radius:3px;
 	background-color: navy;
 }
+.Header-btn button:hover{
+	background-color: lightblue;
+	color: #000;
+}
 
 @media screen and (max-width: 800px){
 	.Header-btn{
@@ -627,8 +632,9 @@ header .sticky{
 }
 @media screen and (max-width: 600px){
 	.Header-btn{
-		margin-top: 20px;
 		font-size: 9px;
+		margin-left: 20px;
+		margin-bottom: 15px;
 	}
 	.Header-btn button{
 		width: 100%;
@@ -638,8 +644,8 @@ header .sticky{
 @media screen and (max-width: 500px){
 	.Header-btn{
 		margin: 0;
-		margin-top: 20px;
-		margin-left: 30px;
+		margin-left: 20px;
+		margin-bottom: 15px;
 		font-size: 9px;
 	}
 }
