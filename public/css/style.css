@@ -484,6 +484,14 @@ body::-webkit-scrollbar{
 	float: left;
 	padding-top: 15px;
 }
+@media screen and (max-width:1030px){
+	.desc .desc-img{
+		margin-left: 8px;
+	}
+	.desc .desc-sub{
+		margin-left: 70pxs;
+	}
+}
 @media screen and (min-width: 830px){
 	.desc{
 		display:block;
