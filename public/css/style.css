@@ -191,6 +191,7 @@ body::-webkit-scrollbar{
 	display: block;
 	background-color: rgb(153,153,255,0.8);
 	padding-top: 30px;
+	margin-top:-18px;
 	position: fixed;
 	text-align: center;
 	color: navy;
