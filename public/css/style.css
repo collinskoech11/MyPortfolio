@@ -118,12 +118,12 @@ body::-webkit-scrollbar{
 	box-shadow:lightblue 1px 0 10px ;
 }
 .stat .tab button:hover{
-	background-color: rgb(255, 255,255,0.3);
+	background-color: rgb(0,0,0,0.5);
 }
 .move{
 	margin-right:-1000px;
 	z-index: -3;
-	display: none;
+	opacity: 0.8;
 }
 .move h1{
 	color:red;
@@ -210,7 +210,7 @@ body::-webkit-scrollbar{
 	width: 25%;
 	height: 100vh;
 	display: block;
-	background-color: rgb(153,153,255,0.8);
+	background-color:rgb(0,0,0,0.03);
 	padding-top: 30px;
 	margin-top:-18px;
 	position: fixed;
@@ -320,6 +320,7 @@ body::-webkit-scrollbar{
 	height: 50px;
 	width: 100%;
 	text-align: center;
+	color:#fff;
 	margin-top:50px;
 	font-size: 30px;
 }
@@ -337,26 +338,26 @@ body::-webkit-scrollbar{
 	font-size: 25px;
 }
 .desc .my-desc .bio p{
-	color: navy;
+	color: #fff;
 }
 .desc .my-desc .socials .git {
 	height: 40px;
-	color: navy;
+	color: #fff;
 }
 .desc .my-desc .socials .git a{
-	color:navy;
+	color:#fff;
 }
 .desc .my-desc .organisation{
 	font-weight: bold;
 	height: auto;
 }
 .desc .my-desc .organisation a{
-	color:navy;
+	color:#fff;
 	text-decoration: none;
 
 }
 .desc .my-desc .organisation p{
-	color: navy;
+	color: #fff;
 }
 .desc .my-desc .socials{
 	display: inline-block;
