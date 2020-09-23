@@ -123,12 +123,15 @@ body::-webkit-scrollbar{
 	box-shadow:lightblue 1px 0 10px ;
 }
 .stat .tab button:hover{
-	background-color: rgb(0,0,0,0.5);
+	background-color: rgba(139, 117, 117, 0.5);
 }
 .move{
 	margin-right:-1000px;
 	z-index: -3;
 	opacity: 0.8;
+}
+.move .ml15{
+	color:rgb(100,100,100);
 }
 .move h1{
 	color:red;
