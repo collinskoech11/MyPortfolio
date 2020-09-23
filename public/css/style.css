@@ -33,7 +33,7 @@ body::-webkit-scrollbar{
 	color: #fff;
 	overflow-y: scroll;
 	transition: 2s;
-
+	overflow:hidden;
 }
 .stat::-webkit-scrollbar{
 	width: 0;
@@ -796,7 +796,7 @@ header .sticky{
 	font-weight: bold;
 	text-transform: uppercase;
 	margin-top: 20px;
-	color: rgb(0,0,0);
+	color: #fff;
 }
 .content a img:hover{
 	transform: scale(1.2);
@@ -811,24 +811,24 @@ header .sticky{
 	text-transform: uppercase;
 }
 .content .jambo h4{
-	color: rgb(32,17,48);
+	color: #fff;
 }
 .content .jambo p{
-	color:rgb(32,17,48);
+	color:#fff;
 	font-weight: bold;
 }
 .content .cokobox h4{
-	color:#000;
+	color:#fff;
 }
 .content .cokobox p{
-	color: navy;
+	color:#fff;
 	font-weight: bold;
 }
 .content .mysa h4{
-	color: black;
+	color: #fff;
 }
 .content .mysa p{
-	color:#000;
+	color:#fff;
 }
 .content .fifth h4,p{
 	color:white;
@@ -840,16 +840,16 @@ header .sticky{
 	color:#fff;
 }
 .content .devco h4{
-	color: #000;
+	color: #fff;
 }
 .content .devco p{
-	color:navy;
+	color:#fff;
 }
 .content .absolute p{
-	color: navy;
+	color: #fff;
 }
 .content .DevcoKenya p{
-	color:rgb(32,17,48);
+	color:#fff;
 }
 .content .content-img{
 	width: 60%;
@@ -867,6 +867,7 @@ header .sticky{
 	height: auto;
 	float: left;
 	text-align: center;
+	color:#fff;
 }
 @media screen and (max-width: 800px){
 	.content,.content-1,.header{
