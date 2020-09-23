@@ -47,10 +47,36 @@ body::-webkit-scrollbar{
 }
 .stat .tab{
 	position:absolute;
-	top:75vh;
-	right:10%;
+	top:80vh;
+	width:100%;
+	padding-left: 10%;
+	padding-right:10%;
 }
-
+.stat .tab .prep{
+	float:right;
+	width:30%;
+}
+.stat .tab .prep p{
+	font-size: 12px;
+	text-transform: lowercase;
+}
+.stat .tab .prep .sp img{
+	width:20px;
+	height:20px;
+	animation:sp 1s infinite;
+	box-shadow: 1px 3px 2px #fff;
+	border-radius: 10px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+@keyframes sp{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform:rotate(-360deg);
+	}
+}
 .stato{
 	width: 100%;
 	height: 100%;
@@ -118,8 +144,10 @@ body::-webkit-scrollbar{
 	font-size: 18px;
 	cursor: pointer;
 	border-radius: 10px;
+	float:right;
+	margin-right:40px;
 	height: 80px;
-	width: 300px;
+	width: 50%;
 	box-shadow:lightblue 1px 0 10px ;
 }
 .stat .tab button:hover{
