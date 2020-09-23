@@ -16,13 +16,12 @@ function() {
 document.querySelector('.tab').addEventListener('click',
 function(){
 	const stat = document.querySelector('.stat');
-	stat.classList.toggle('move', behavior='smooth')
-	
+	stat.classList.toggle('move', behavior='smooth');
 });
-document.querySelector('.tab').addEventListener('click',
+/**document.querySelector('.tab').addEventListener('click',
 function(){
-	const stato = document.querySelector('.stato')
-	stato.classList.toggle('moveo', behavior="smooth")
+	const stato = document.querySelector('.stato');
+	stato.classList.toggle('moveo', behavior="smooth");
 });
 document.querySelector('.dark').addEventListener('click',
 function(){
@@ -33,7 +32,7 @@ document.querySelector('.darko').addEventListener('click',
 function(){
 	const moveo = document.querySelector('.moveo')
 	moveo.classList.toggle('moveoo', behavior ="smooth")
-})
+})**/
 document.getElementById('closeo').addEventListener('click',
 	function(){
 	document.querySelector('.tweetPop').style.display = 'none';
@@ -89,7 +88,7 @@ window.addEventListener("scroll",
 		const jambofive = document.querySelector(".jambofive");
 		jambofive.classList.toggle("scroll",window.scrollY > 1200);
 
-	})
+	});
 document.getElementById('low').addEventListener('click',
 	function(){
 		window.scrollTo({

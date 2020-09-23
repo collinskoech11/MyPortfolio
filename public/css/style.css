@@ -33,7 +33,7 @@ body::-webkit-scrollbar{
 	color: #fff;
 	overflow-y: scroll;
 	transition: 2s;
-	overflow:hidden;
+
 }
 .stat::-webkit-scrollbar{
 	width: 0;
