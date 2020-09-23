@@ -27,12 +27,17 @@ body::-webkit-scrollbar{
 	font-size: 50px;
 	z-index: 3;
 	text-transform: uppercase;
-	background-image:url(../img/bgl.jpg);
+	background-image:url("../img/bgl.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	color: #fff;
 	overflow-y: scroll;
 	transition: 2s;
+	overflow:hidden;
+}
+.stat::-webkit-scrollbar{
+	width: 0;
+	height: 0;
 }
 @media screen and (min-width:1030px){
 	.stat .img-con{
