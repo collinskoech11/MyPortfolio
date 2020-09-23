@@ -125,3 +125,15 @@ document.getElementById('twitter').addEventListener('click',
 	  mess.classList.toggle('pop', behavior = "smooth")
 	  mess.removeClass('pop');
   })
+
+  window.onload =  function(){setTimeout(hidePopup,10000)};
+  	function hidePopup(){
+		  document.querySelector('.prep').style.display='none';
+	  };
+
+
+	  window.onload = function(){setTimeout(showText,10000)};
+	  	function showText(){
+			  document.querySelector('.loadtxt').style.display="block";
+			  document.querySelector('.loadimg').style.display="none";
+		  };
