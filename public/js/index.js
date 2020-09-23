@@ -117,3 +117,11 @@ document.getElementById('twitter').addEventListener('click',
     easing: "easeOutExpo",
     delay: 1000
   });
+
+
+  document.querySelector('.messbb').addEventListener('click',
+  function(){
+	  const mess = document.querySelector('.mess');
+	  mess.classList.toggle('pop', behavior = "smooth")
+	  mess.removeClass('pop');
+  })
