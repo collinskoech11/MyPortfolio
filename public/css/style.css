@@ -1,3 +1,4 @@
+/**General body styling**/
 *{
 	margin: 0;
 	padding: 0;
@@ -12,10 +13,12 @@ body::-webkit-scrollbar{
 	width: 0;
 	height:0;
 }
+/**general container**/
 .container{
 	animation: fade 8s;
 
 }
+/**Startup window**/
 .stat{
 	width: 100%;
 	height: 100%;
@@ -165,8 +168,9 @@ body::-webkit-scrollbar{
 	color:red;
 	transition:1s;
 }
-.move button{
+.move .tab button{
 	transform: rotate(360deg);
+	display: none;
 
 }
 .stat .img-con{
@@ -1191,4 +1195,11 @@ h4 li{
 	.tweetPop{
 		left: 100px;
 	}
+}
+.content footer{
+	width:100%;
+	height:300px;
+	background-color: #000;
+	border-radius: 20px;
+	border: #000;
 }
