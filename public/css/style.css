@@ -675,9 +675,6 @@ header .sticky{
 	width: 100%;
 	height: 30px;
 	border:none;
-	/**border-bottom:2px solid navy;
-	border-right:1px solid navy ;
-	border-left: 1px solid navy;**/
 	padding-left: 10px;
 	padding-right: 10px;
 	text-transform: uppercase;
