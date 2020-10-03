@@ -173,6 +173,9 @@ body::-webkit-scrollbar{
 	display: none;
 
 }
+.move .tab .prep{
+	display: none;
+}
 .stat .img-con{
 	width: 250px;
 	height: 250px;
