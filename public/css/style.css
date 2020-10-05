@@ -659,7 +659,7 @@ header .sticky{
 	top:0;
 	position: fixed;
 	right:0;
-	background-color:rgb(0,0,0,0.3);
+	background-color:rgb(0,0,0,0.6);
 	margin-top: 0;
 	transition: 0.2s;
 	border:none;
@@ -914,14 +914,13 @@ header .sticky{
 	.content .content-img{
 		width: 100%;
 	}
-	.content .content-text{
-		width: 100%;
-	}
+	
+}.content .content-text{
+	width: 100%;
 }
 .dep-wrapper .content{
 	color:navy;
-	font-family: sans-serif;
-	background-image: url(../img/motif-fond-ligne-hexagonale-elegante/19742.jpg);
+	background-image: url("../img/motif-fond-ligne-hexagonale-elegante/19742.jpg");
 	background-repeat: repeat;
 }
  .dep-wrapper a{
