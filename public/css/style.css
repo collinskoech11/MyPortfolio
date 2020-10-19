@@ -1193,6 +1193,7 @@ h4 li{
 	overflow-y: scroll;
 	display:none;
 }
+/**popup scrollbar**/
 .tweetPop::-webkit-scrollbar{
 	width: 0;
 	height: 0;
