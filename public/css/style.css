@@ -1206,12 +1206,20 @@ h4 li{
 		left: 100px;
 	}
 }
-.footer footer{
+/**Universal Footer**/
+.content footer{
 	width:100%;
-	height:300px;
-	background-color: white;
+	height:auto;
+	background-color: #000;
 	border-radius: 20px;
 	border: #000 1px solid;
 	margin:0;
-	padding: 0;
+	padding:0;
+}
+.content footer form{
+	width:100%;
+	height:45px;
+	background:#000;
+	border-radius: 20px;
+	display: block;
 }
