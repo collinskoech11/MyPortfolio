@@ -19,6 +19,7 @@ body::-webkit-scrollbar{
 
 }
 /**Startup window**/
+/**Slides Back on startup**/
 .stat{
 	width: 100%;
 	height: 100%;
@@ -48,6 +49,7 @@ body::-webkit-scrollbar{
 
 	}
 }
+/**My journey Button **/
 .stat .tab{
 	position:absolute;
 	top:80vh;
@@ -72,6 +74,7 @@ body::-webkit-scrollbar{
 	margin-top:20px;
 	margin-bottom:20px;
 }
+/**Preping spin animtion**/
 @keyframes sp{
 	from{
 		transform: rotate(0deg);
@@ -80,6 +83,7 @@ body::-webkit-scrollbar{
 		transform:rotate(-360deg);
 	}
 }
+/**SEcondary startup window (Deleted)**/
 .stato{
 	width: 100%;
 	height: 100%;
@@ -124,6 +128,7 @@ body::-webkit-scrollbar{
 	float: left;
 	cursor:pointer;
 }
+/**End of secondary window**/
 .moveo{
 	margin-left: 0;
 }
@@ -156,6 +161,7 @@ body::-webkit-scrollbar{
 .stat .tab button:hover{
 	background-color: rgba(139, 117, 117, 0.5);
 }
+/**Startup animation js class**/
 .move{
 	margin-right:-1000px;
 	z-index: -3;
@@ -176,6 +182,7 @@ body::-webkit-scrollbar{
 .move .tab .prep{
 	display: none;
 }
+/**Profile image on startup window**/
 .stat .img-con{
 	width: 250px;
 	height: 250px;
@@ -194,6 +201,7 @@ body::-webkit-scrollbar{
 	width: 100%;
 	height: 100%;
 }
+/**Startup Name Animation js class**/
 .ml15 {
 	font-weight: 800;
 	font-size: 1em;
@@ -249,6 +257,7 @@ body::-webkit-scrollbar{
 		z-index: -3;
 	}
 }
+/**Sidebar with profile and social Links**/
 .desc{
 	width: 25%;
 	height: 100vh;
@@ -1169,6 +1178,7 @@ h4 li{
 	display:block;
 	transition:1s;
 }
+/**Tweeter popup window**/
 .tweetPop{
 	background-color:rgb(0,0,255,0.33); 
 	top: 100px;
@@ -1196,10 +1206,12 @@ h4 li{
 		left: 100px;
 	}
 }
-.content footer{
+.footer footer{
 	width:100%;
 	height:300px;
-	background-color: #000;
+	background-color: white;
 	border-radius: 20px;
 	border: #000 1px solid;
+	margin:0;
+	padding: 0;
 }
