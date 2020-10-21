@@ -126,13 +126,13 @@ document.getElementById('twitter').addEventListener('click',
 	  mess.removeClass('pop');
   })
 
-  window.onload =  function(){setTimeout(hidePopup,10000)};
+  window.onload =  function(){setTimeout(hidePopup,5000)};
   	function hidePopup(){
 		  document.querySelector('.prep').style.display='none';
 	  };
 
 
-	  window.onload = function(){setTimeout(showText,10000)};
+	  window.onload = function(){setTimeout(showText,5000)};
 	  	function showText(){
 			  document.querySelector('.loadtxt').style.display="block";
 			  document.querySelector('.loadimg').style.display="none";

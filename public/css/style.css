@@ -1116,7 +1116,7 @@ h4 li{
 	padding: 1px;
 }
 .calendar ul{ 
-	text-decoration: none;
+	list-style: none;
 }
 .mess{
 	display:none;
