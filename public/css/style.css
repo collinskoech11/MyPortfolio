@@ -1110,6 +1110,7 @@ h4 li{
 		transition:1.5s;
 	}
 }
+/**Github Calendar**/
 .calendar a{
 	color: navy;
 	padding: 1px;
@@ -1174,6 +1175,7 @@ h4 li{
 	cursor:pointer;
 	text-transform: uppercase;
 }
+/**SideBar Popup**/
 .pop{
 	display:block;
 	transition:1s;
@@ -1217,6 +1219,7 @@ h4 li{
 	margin:0;
 	padding:0;
 }
+/** Footer Messaging Form**/
 .content footer form{
 	width:100%;
 	height:45px;
