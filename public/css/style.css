@@ -632,8 +632,8 @@ body::-webkit-scrollbar{
 	height: auto;
 	padding: 10px;
 	float: right;
-	background-color:  rgba(63, 63, 63, 0.8);
-	margin-top:-18px;
+	background-color: rgb(0,0,0,0.7);
+	margin-top:0;
 	margin-right: 2%;
 	display: block;
 	color: navy;
@@ -644,7 +644,7 @@ body::-webkit-scrollbar{
 	height: 30px;
 }
 .header{
-	background-color:  rgba(63, 63, 63, 0.8) ;
+	background-color: rgb(0,0,0,0.7);
 	margin-top:0px;
 	width: 72%;
 	height: auto;
@@ -1100,6 +1100,7 @@ h4 li{
 	height: 100px;
 	animation: jump 1.5s linear infinite;
 }
+/** github calendar loading image spin animation**/
 @keyframes jump{
 	from{
 		transform: rotate(0deg);
@@ -1117,6 +1118,9 @@ h4 li{
 }
 .calendar ul{ 
 	list-style: none;
+}
+.calendar ul li{
+	color: #fff;
 }
 .mess{
 	display:none;
