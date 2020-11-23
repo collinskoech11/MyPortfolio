@@ -272,6 +272,7 @@ body::-webkit-scrollbar{
 	border-bottom-right-radius: 10px;
 	border-bottom-left-radius: 10px;
 }
+/**Desc Section scroll bar**/
 .desc::-webkit-scrollbar{
 	width: 0;
 	height: 0;
