@@ -798,7 +798,7 @@ header .sticky{
 	float: right;
 	margin-top: 5px;
 	margin-right: 2%;
-	display: inline-block;
+	display:inline-block;
 	animation: fade 10s;
 }
 .content .data-img{
@@ -895,7 +895,7 @@ header .sticky{
 	color:#fff;
 }
 .content .content-img{
-	width: 58%;
+	width: 50%;
 	height: auto;
 	overflow: hidden;
 	float:left;
@@ -906,11 +906,11 @@ header .sticky{
 	height: 100%;
 }
 .content .content-text{
-	width: 35%;
+	width: 45%;
 	height: auto;
-	float: right;
 	text-align: center;
 	color:#fff;
+	float:left;
 }
 @media screen and (max-width: 800px){
 	.content,.content-1,.header{
@@ -924,10 +924,11 @@ header .sticky{
 	.content .content-img{
 		width: 100%;
 	}
-	
-}.content .content-text{
-	width: 100%;
-}
+	.content .content-text{
+		width: 100%;
+	}
+	}
+
 .dep-wrapper .content{
 	color:navy;
 	background-image: url("../img/motif-fond-ligne-hexagonale-elegante/19742.jpg");
