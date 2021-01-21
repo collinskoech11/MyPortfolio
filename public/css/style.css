@@ -1232,3 +1232,35 @@ h4 li{
 	border-radius: 20px;
 	display: block;
 }
+/**Project link buttons**/
+.project-btn-container{
+	display:flex;
+	width:100%;
+	height:auto;
+	align-items: center;
+	text-align:center;
+	justify-content:center;
+	padding:10px;
+}
+.project-btn-container a{
+	margin:10px;
+}
+.project-btn-container button{
+	width: 200px;
+	border-radius: 10px;
+	border: 2px #fff solid;
+	background-color:transparent;
+	color: #fff;
+	font-weight: bolder;
+	text-transform:uppercase;
+	margin:20px;
+	height:40px;
+	transition:1s;
+}
+.project-btn-container button:hover{
+	color: purple;
+	background-color:#fff;
+	transition:1s;
+	cursor:pointer;
+	border:purple 2px solid;
+}

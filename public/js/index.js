@@ -117,7 +117,7 @@ document.getElementById('twitter').addEventListener('click',
 	  };
 
 
-	  window.onload = function(){setTimeout(showText,5000)};
+	  window.onload = function(){setTimeout(showText,10000)};
 	  	function showText(){
 			  document.querySelector('.loadtxt').style.display="block";
 			  document.querySelector('.loadimg').style.display="none";
