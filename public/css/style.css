@@ -1265,3 +1265,9 @@ h4 li{
 	cursor:pointer;
 	border:purple 2px solid;
 }
+/** Project btn container responsiveness**/
+@media screen and (max-width:1000px){
+	.project-btn-container button{
+		width: 100%;
+	}
+}
