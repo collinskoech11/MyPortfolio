@@ -697,6 +697,9 @@ header .sticky{
 	margin-bottom: -3px;
 	background-color: transparent;
 }
+button .active{
+	border-bottom:3px solid #fff;
+}
 
 @media screen and (max-width: 800px){
 	.Header-btn{
@@ -1232,6 +1235,14 @@ h4 li{
 	background:#000;
 	border-radius: 20px;
 	display: block;
+}
+/**Footer input styling **/
+.content footer form input{
+	width:100%;
+}
+/**Footer submit button **/
+.content footer form button{
+	width: 200px;
 }
 /**Project link buttons**/
 .project-btn-container{

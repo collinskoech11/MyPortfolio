@@ -42,8 +42,7 @@ var rs = new ActiveXObject("ADODB.Recordset");
 
 rs.Open("SELECT * FROM table", connection);
 rs.MoveFirst
-while(!rs.eof)
-{
+while(!rs.eof){
    document.write(rs.fields(1));
    rs.movenext;
 }
