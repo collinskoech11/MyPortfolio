@@ -117,4 +117,6 @@ document.getElementById('twitter').addEventListener('click',
 *			  document.querySelector('.loadtxt').style.display="block";
 *			  document.querySelector('.loadimg').style.display="none";
 *		  };
+
+Display error message on failed load
 */
