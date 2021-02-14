@@ -104,13 +104,7 @@ document.getElementById('twitter').addEventListener('click',
     delay: 1000
   });
 
-/** 
-  document.querySelector('.messbb').addEventListener('click',
-  function(){
-	  const mess = document.querySelector('.mess');
-	  mess.classList.toggle('pop', behavior = "smooth")
-	  mess.removeClass('pop');
-  })*/
+
 
   window.onload =  function(){setTimeout(hidePopup,5000)};
   	function hidePopup(){
