@@ -1285,3 +1285,21 @@ h4 li{
 .stat-counter{
 	width:500px;
 }
+.second-cal{
+	width:100%;
+	height:120px;
+	padding-left:5%;
+}
+.second-cal img{
+	width: 90%;
+	height:100%;
+}
+@media screen and (max-width:1000px){
+	.second-cal{
+		padding-left:0;
+		height:80px;
+	}
+	.second-cal img{
+		width:100%;
+	}
+}
