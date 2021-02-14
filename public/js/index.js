@@ -29,6 +29,7 @@ document.getElementById('dep').addEventListener('click',
 		document.querySelector('.os-wrapper').style.display = 'none';
 		document.querySelector('.dep-wrapper').style.display = 'block';
 	});
+	
 document.getElementById('web').addEventListener('click',
 	function() {
 		document.querySelector('.content-wrapper').style.display = 'block';
