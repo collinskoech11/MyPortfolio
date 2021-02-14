@@ -29,7 +29,7 @@ document.getElementById('dep').addEventListener('click',
 		document.querySelector('.os-wrapper').style.display = 'none';
 		document.querySelector('.dep-wrapper').style.display = 'block';
 	});
-	
+
 document.getElementById('web').addEventListener('click',
 	function() {
 		document.querySelector('.content-wrapper').style.display = 'block';
@@ -117,9 +117,10 @@ document.getElementById('twitter').addEventListener('click',
 		  document.querySelector('.prep').style.display='none';
 	  };
 
-
-	  window.onload = function(){setTimeout(showText,10000)};
-	  	function showText(){
-			  document.querySelector('.loadtxt').style.display="block";
-			  document.querySelector('.loadimg').style.display="none";
-		  };
+/** 
+*	  window.onload = function(){setTimeout(showText,10000)};
+*	  	function showText(){
+*			  document.querySelector('.loadtxt').style.display="block";
+*			  document.querySelector('.loadimg').style.display="none";
+*		  };
+*/
