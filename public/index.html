@@ -540,24 +540,26 @@
 						<div class="app-contact">CONTACT INFO : +254 728 000 107</div>
 					  </div>
 					  <div class="screen-body-item">
-						<div class="app-form">
-						  <div class="app-form-group">
-							<input class="app-form-control" placeholder="NAME" >
-						  </div>
-						  <div class="app-form-group">
-							<input class="app-form-control" placeholder="EMAIL">
-						  </div>
-						  <div class="app-form-group">
-							<input class="app-form-control" placeholder="CONTACT NO">
-						  </div>
-						  <div class="app-form-group message">
-							<input class="app-form-control" placeholder="MESSAGE">
-						  </div>
-						  <div class="app-form-group buttons">
-							<button class="app-form-button">CANCEL</button>
-							<button class="app-form-button">SEND</button>
-						  </div>
-						</div>
+						<form action="https://formspree.io/f/mqkgkgya" method="POST">
+							<div class="app-form">
+							<div class="app-form-group">
+								<input class="app-form-control" placeholder="NAME" name="name">
+							</div>
+							<div class="app-form-group">
+								<input class="app-form-control" placeholder="EMAIL" name="_replyto">
+							</div>
+							<div class="app-form-group">
+								<input class="app-form-control" placeholder="CONTACT NO">
+							</div>
+							<div class="app-form-group message">
+								<input class="app-form-control" placeholder="MESSAGE" name="message">
+							</div>
+							<div class="app-form-group buttons">
+								<button class="app-form-button">CANCEL</button>
+								<button class="app-form-button" type="submti" value="Send">SEND</button>
+							</div>
+							</div>
+						</form>
 					  </div>
 					</div>
 				  </div>
