@@ -1222,7 +1222,6 @@ h4 li{
 .content footer{
 	width:100%;
 	height:auto;
-	background-color: #000;
 	border-radius: 20px;
 	border: #000 1px solid;
 	margin:0;
@@ -1232,7 +1231,6 @@ h4 li{
 .content footer form{
 	width:100%;
 	height:45px;
-	background:#000;
 	border-radius: 20px;
 	display: block;
 }
