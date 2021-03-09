@@ -121,7 +121,7 @@ document.getElementById('twitter').addEventListener('click',
 Display error message on failed load
 */
 
-let myLabels = document.querySelectorAll('.lbl-toggle');
+let myLabels = document.querySelectorAll('.lbl-toggle','.lbl-toggle1');
 
 Array.from(myLabels).forEach(label => {
   label.addEventListener('keydown', e => {
