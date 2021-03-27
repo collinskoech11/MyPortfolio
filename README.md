@@ -1,6 +1,6 @@
 # MyPortfolio
 ## Now features Dark Mode compatibility 
-## Commit graph bug fix
+## Commit graph Re-designed
 
 
 ## <a href="https://collinskoechportfolio.web.app">Live url</a>
