@@ -55,10 +55,15 @@ body::-webkit-scrollbar{
 	top:80vh;
 	width:100%;
 	padding-left: 10%;
-	padding-right:10%;
+	padding: right 20%;
+}
+.stat .tab button{
+	margin-left: 50px;
+	margin-bottom: 30px;
 }
 .stat .tab .prep{
-	float:left;
+    margin-left: 50px;
+	margin-top: 50px;
 	width:30%;
 }
 .stat .tab .prep p{
