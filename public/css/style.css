@@ -18,12 +18,14 @@ body::-webkit-scrollbar{
 /**general container**/
 .container{
 	animation: fade 8s;
+	max-width:100vw;
+	overflow-x:hidden;
 
 }
 /**Startup window**/
 /**Slides Back on startup**/
 .stat{
-	width: 100%;
+	width: 100vw;
 	height: 100%;
 	position: fixed;
 	top:0;
