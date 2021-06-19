@@ -8,6 +8,8 @@ body{
 	background-color: #fff;
 	font-family: sans-serif;
 	background-color: rgb(153,153,255,0.5);
+	max-width: 100vw;
+	overflow-x:hidden;
 }
 body::-webkit-scrollbar{
 	width: 0;
@@ -917,6 +919,11 @@ button .active{
 	width: 100%;
 	size: cover;
 	height: 100%;
+}
+.content .content-img iframe{
+	width: 100%;
+	size: cover;
+	height: 400px;
 }
 .content .content-text{
 	width: 45%;
