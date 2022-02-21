@@ -80,9 +80,23 @@ section{
     transition:0.5s linear;
     box-shadow: rgb(121, 220, 245) 0px 50px 100px -20px, rgb(121, 220, 245) 0px 30px 60px -30px;
 }
-.shade{
+.shade ,.shader{
     transition:0.5s linear;
     box-shadow: rgb(121, 220, 245) 0px 50px 100px -20px, rgb(121, 220, 245) 0px 30px 60px -30px; 
+}
+.shader{
+    animation: ping 2s linear infinite;
+}
+@keyframes ping{
+    0%{
+        box-shadow: rgb(121, 220, 245) 0px 50px 100px -20px, rgb(121, 220, 245) 0px 30px 60px -30px;  
+    }
+    50%{
+        box-shadow: none;
+    }
+    100%{
+        box-shadow: rgb(121, 220, 245) 0px 50px 100px -20px, rgb(121, 220, 245) 0px 30px 60px -30px;  
+    }
 }
 .space{
     line-height: 30px;
