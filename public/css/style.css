@@ -5,6 +5,25 @@
     color:#fff;
     max-width:100vw;
 }
+
+body{
+    font-family:sans-serif;
+    max-width:100vw;
+    overflow-x:hidden;
+    background-color: #242529;
+}
+section{
+    width:100vw;
+    max-width:100vw;
+    overflow-x: hidden;
+}
+a{
+    color:greenyellow;
+    text-decoration:none;
+}
+.colored{
+    color: greenyellow;
+}
 * p{
     color:gray;
 }
@@ -29,17 +48,6 @@ button:hover{
 .spec p{
     color:rgb(121, 220, 245);
 }
-body{
-    font-family:sans-serif;
-    max-width:100vw;
-    overflow-x:hidden;
-    background-color: #242529;
-}
-section{
-    width:100vw;
-    max-width:100vw;
-    overflow-x: hidden;
-}
 .header-container {
     width:40%;
     margin:auto;
@@ -56,25 +64,29 @@ section{
 .header-body-container{
     display:flex;
     flex-wrap: wrap;
-    width:80%;
+    width:90%;
     height:auto;
     margin:auto;
     margin-top:40px;
 }
 .header-body-container .block{
-    width:40%;
+    width:100%;
     height:auto;
-    margin-right:5%;
+    margin:auto;
     border:1px solid rgb(255, 255, 255,0.3);
     display:block;
     border-radius: 10px;
-    margin-left:5%;
     text-align:center;
     padding:20px;
     padding-bottom: 40px;
     padding-top: 40px;
     transition:0.5s linear;
-    margin-bottom:10px;
+    margin-bottom:90px;
+}
+@media screen and(max-width:1000px){
+    .header-body-container .block{
+        width:80%;
+    }
 }
 .header-body-container .block:hover{
     transition:0.5s linear;
@@ -87,17 +99,7 @@ section{
 .shader{
     animation: ping 2s linear infinite;
 }
-@keyframes ping{
-    0%{
-        box-shadow: rgb(121, 220, 245) 0px 50px 100px -20px, rgb(121, 220, 245) 0px 30px 60px -30px;  
-    }
-    50%{
-        box-shadow: none;
-    }
-    100%{
-        box-shadow: rgb(121, 220, 245) 0px 50px 100px -20px, rgb(121, 220, 245) 0px 30px 60px -30px;  
-    }
-}
+
 .space{
     line-height: 30px;
 }
@@ -114,7 +116,7 @@ section{
     transition:0.5s linear;
 }
 .pinned-repo-con{
-    width:90%;
+    width:100%;
     height:auto;
     display:flex;
     flex-wrap: wrap;
@@ -123,16 +125,20 @@ section{
     margin-top:50px;
 }
 .pinned-repo-con .repo{
-    width:28%;
+    width:80%;
     height:auto;
     border:1px solid rgb(255, 255, 255,0.3);
-    margin-right:5%;
+    margin:auto;
     margin-bottom:30px;
     border-radius:10px;
     text-align:center;
     padding:20px;
     padding-bottom: 50px;
     padding-top: 40px;
+}
+.pinned-repo-con .repo:hover{
+    transition:0.5s linear;
+    box-shadow: rgb(121, 220, 245) 0px 50px 100px -20px, rgb(121, 220, 245) 0px 30px 60px -30px; 
 }
 .pinned-repo-con .repo h4{
     margin-bottom: 20px;
@@ -147,4 +153,15 @@ section{
     padding-left: 30px;
     padding-top: 35px;
     margin-top: 10px;
+}
+@keyframes ping{
+    0%{
+        box-shadow: rgb(121, 220, 245) 0px 50px 100px -20px, rgb(121, 220, 245) 0px 30px 60px -30px;  
+    }
+    50%{
+        box-shadow: none;
+    }
+    100%{
+        box-shadow: rgb(121, 220, 245) 0px 50px 100px -20px, rgb(121, 220, 245) 0px 30px 60px -30px;  
+    }
 }
