@@ -124,6 +124,7 @@ button:hover{
     text-align:center;
     margin-top:50px;
 }
+
 .pinned-repo-con .repo{
     width:80%;
     height:auto;
@@ -140,6 +141,7 @@ button:hover{
     transition:0.5s linear;
     box-shadow: rgb(121, 220, 245) 0px 50px 100px -20px, rgb(121, 220, 245) 0px 30px 60px -30px; 
 }
+
 .pinned-repo-con .repo h4{
     margin-bottom: 20px;
 }
