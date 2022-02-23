@@ -57,6 +57,12 @@ button:hover{
     height:auto;
     padding-bottom:20px;
 }
+.header-container .big{
+    font-size: 3.5em;
+}
+.header-container h1{
+    font-size: 0.5em;
+}
 @media screen and (max-width:1000px){
     .header-container{
         width:100%;
@@ -70,7 +76,7 @@ button:hover{
     margin:auto;
     margin-top:40px;
 }
-.header-body-container .block{
+.header-body-container .block,.shade{
     width:100%;
     height:auto;
     margin:auto;
@@ -83,6 +89,18 @@ button:hover{
     padding-top: 40px;
     transition:0.5s linear;
     margin-bottom:90px;
+}
+@media screen and (min-width:1000px){
+    .shade{
+        display:flex;
+        text-align: center;
+        align-items: center;
+        padding-left:25%;
+        padding-right: 10%;
+    }
+    .shade *{
+        margin-right: 40px;
+    }
 }
 .header-body-container .og {
     width:45%;
@@ -118,11 +136,18 @@ button:hover{
 .shader{
     animation: ping 2s linear infinite;
 }
-
 .space{
     line-height: 30px;
 }
+
 .header-body-container .block img{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.header-body-container .shade img{
     width:150px;
     height:150px;
     border-radius: 50%;
