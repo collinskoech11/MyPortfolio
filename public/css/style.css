@@ -83,12 +83,30 @@ button:hover{
     transition:0.5s linear;
     margin-bottom:90px;
 }
-@media screen and(max-width:1000px){
-    .header-body-container .block{
-        width:80%;
+.header-body-container .og {
+    width:45%;
+    height:auto;
+    margin:auto;
+    border:1px solid rgb(255, 255, 255,0.3);
+    display:block;
+    border-radius: 10px;
+    text-align:center;
+    padding:20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    transition:0.5s linear;
+    margin-bottom:90px;
+}
+@media screen and (max-width:1000px){
+    .header-body-container .og{
+        width:100%;
     }
 }
 .header-body-container .block:hover{
+    transition:0.5s linear;
+    box-shadow: rgb(121, 220, 245) 0px 50px 100px -20px, rgb(121, 220, 245) 0px 30px 60px -30px;
+}
+.header-body-container .og:hover{
     transition:0.5s linear;
     box-shadow: rgb(121, 220, 245) 0px 50px 100px -20px, rgb(121, 220, 245) 0px 30px 60px -30px;
 }
@@ -126,7 +144,7 @@ button:hover{
 }
 
 .pinned-repo-con .repo{
-    width:80%;
+    width:28%;
     height:auto;
     border:1px solid rgb(255, 255, 255,0.3);
     margin:auto;
@@ -140,6 +158,11 @@ button:hover{
 .pinned-repo-con .repo:hover{
     transition:0.5s linear;
     box-shadow: rgb(121, 220, 245) 0px 50px 100px -20px, rgb(121, 220, 245) 0px 30px 60px -30px; 
+}
+@media screen and (max-width:1000px){
+    .pinned-repo-con .repo{
+        width:80%;
+    }
 }
 
 .pinned-repo-con .repo h4{
