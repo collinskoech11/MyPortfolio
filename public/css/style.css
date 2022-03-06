@@ -40,10 +40,23 @@ button{
     cursor:pointer;
     transition:0.5s linear;
 }
-button:hover{
+.block:hover button{
     width:150px;
     height:50px;
     transition:0.5s linear;
+    cursor:pointer;
+}
+.repo:hover button{
+    width:150px;
+    height:50px;
+    transition:0.5s linear;
+    cursor:pointer;
+}
+.og:hover button{
+    width:150px;
+    height:50px;
+    transition:0.5s linear;
+    cursor:pointer;
 }
 .spec p{
     color:rgb(121, 220, 245);
