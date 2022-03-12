@@ -144,7 +144,7 @@ button{
 }
 .shade ,.shader{
     transition:0.5s linear;
-    box-shadow: rgb(121, 220, 245) 0px 50px 100px -20px, rgb(121, 220, 245) 0px 30px 60px -30px; 
+    box-shadow: rgb(121, 220, 245) 0px 10px 20px -20px, rgb(121, 220, 245) 0px 10px 20px -10px; 
 }
 .shader{
     animation: ping 2s linear infinite;
