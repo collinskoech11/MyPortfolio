@@ -218,7 +218,7 @@ button{
     padding-top: 35px;
     margin-top: 10px;
 }
-@keyframes ping{
+/* @keyframes ping{
     0%{
         box-shadow: rgb(121, 220, 245) 0px 50px 100px -20px, rgb(121, 220, 245) 0px 30px 60px -30px;  
     }
@@ -228,4 +228,4 @@ button{
     100%{
         box-shadow: rgb(121, 220, 245) 0px 50px 100px -20px, rgb(121, 220, 245) 0px 30px 60px -30px;  
     }
-}
+} */
