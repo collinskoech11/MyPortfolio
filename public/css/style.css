@@ -28,7 +28,7 @@ a{
     color:gray;
 }
 button{
-    width:200px;
+    width:150px;
     height:60px;
     border: 1px solid rgb(121, 220, 245);
     color: rgb(121, 220, 245);
@@ -64,7 +64,7 @@ button{
 .header-container {
     width:40%;
     margin:auto;
-    border-bottom:1px solid white;
+    border-bottom:1px solid rgb(121, 220, 245);
     text-align:center;
     padding-top:20px;
     height:auto;
@@ -229,3 +229,22 @@ button{
         box-shadow: rgb(121, 220, 245) 0px 50px 100px -20px, rgb(121, 220, 245) 0px 30px 60px -30px;  
     }
 } */
+details>summary {
+    list-style-type: none;
+    outline: none;
+    cursor: pointer;
+    /* border: 1px solid #eee; */
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+details>summary::-webkit-details-marker {
+    display: none;
+}
+details>summary::before {
+    content: '🌙   ';
+  }
+  
+  details[open]>summary::before {
+    content: '🎱   ';
+  }
