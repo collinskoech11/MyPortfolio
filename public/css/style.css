@@ -136,15 +136,15 @@ button{
 }
 .header-body-container .block:hover{
     transition:0.5s linear;
-    box-shadow: rgb(121, 220, 245) 0px 50px 100px -20px, rgb(121, 220, 245) 0px 30px 60px -30px;
+    box-shadow: #000 0px 50px 100px -20px, #000 0px 30px 60px -30px;
 }
 .header-body-container .og:hover{
     transition:0.5s linear;
-    box-shadow: rgb(121, 220, 245) 0px 50px 100px -20px, rgb(121, 220, 245) 0px 30px 60px -30px;
+    box-shadow: #000 0px 50px 100px -20px, #000 0px 30px 60px -30px;
 }
 .shade ,.shader{
     transition:0.5s linear;
-    box-shadow: rgb(121, 220, 245) 0px 10px 20px -20px, rgb(121, 220, 245) 0px 10px 20px -10px; 
+    box-shadow: #000 0px 10px 20px -20px, #000 0px 10px 20px -10px; 
 }
 .shader{
     animation: ping 2s linear infinite;
@@ -196,7 +196,7 @@ button{
 }
 .pinned-repo-con .repo:hover{
     transition:0.5s linear;
-    box-shadow: rgb(121, 220, 245) 0px 50px 100px -20px, rgb(121, 220, 245) 0px 30px 60px -30px; 
+    box-shadow: #000 0px 50px 100px -20px, #000 0px 30px 60px -30px; 
 }
 @media screen and (max-width:1000px){
     .pinned-repo-con .repo{
@@ -251,3 +251,44 @@ details>summary::before {
   #toolbar{
       display:none;
   }
+
+.pop{
+    position:fixed;
+    bottom:30px;
+    width:28vw;
+    height:100px;
+    border:1px solid rgb(121, 220, 245);
+    border-radius: 10px;
+    background-color: #242529;
+    display:none;
+    text-align:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow:#000 0px 50px 100px -20px, #000 0px 30px 60px -30px ;
+    margin-left:3%;
+}
+.popup{
+    display:flex;
+}
+.pop .close{
+    width:20%;
+    padding-top:30px;
+    cursor:pointer;
+}
+.pop .close h1{
+    color:yellow;
+    padding-top:4px;
+}
+.pop .text{
+    width:80%;
+    padding-top:30px;
+    text-align:left;
+    padding-left:10px;
+}
+@media screen and (max-width: 1000px){
+    .pop{
+        width:80%;
+        margin-left:10%;
+        margin-right:10%;
+    }
+}
