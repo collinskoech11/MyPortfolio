@@ -248,3 +248,6 @@ details>summary::before {
   details[open]>summary::before {
     content: '🎱   ';
   }
+  #toolbar{
+      display:none;
+  }
