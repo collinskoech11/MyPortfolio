@@ -218,17 +218,17 @@ button{
     padding-top: 35px;
     margin-top: 10px;
 }
-/* @keyframes ping{
+@keyframes ping{
     0%{
-        box-shadow: rgb(121, 220, 245) 0px 50px 100px -20px, rgb(121, 220, 245) 0px 30px 60px -30px;  
+        box-shadow: #000 0px 50px 100px -20px, #000 0px 30px 60px -30px;  
     }
     50%{
         box-shadow: none;
     }
     100%{
-        box-shadow: rgb(121, 220, 245) 0px 50px 100px -20px, rgb(121, 220, 245) 0px 30px 60px -30px;  
+        box-shadow: #000 0px 50px 100px -20px, #000 0px 30px 60px -30px;  
     }
-} */
+} 
 details>summary {
     list-style-type: none;
     outline: none;
@@ -256,7 +256,7 @@ details>summary::before {
     position:fixed;
     bottom:30px;
     width:28vw;
-    height:100px;
+    height:auto;
     border:1px solid rgb(121, 220, 245);
     border-radius: 10px;
     background-color: #242529;
@@ -277,13 +277,14 @@ details>summary::before {
 }
 .pop .close h1{
     color:yellow;
-    padding-top:4px;
+    padding-top:-5px;
 }
 .pop .text{
     width:80%;
-    padding-top:30px;
+    padding-top:20px;
     text-align:left;
-    padding-left:10px;
+    padding-right:20px;
+    padding-bottom:20px;
 }
 @media screen and (max-width: 1000px){
     .pop{
