@@ -248,13 +248,10 @@ details>summary::before {
   details[open]>summary::before {
     content: '🎱   ';
   }
-  #toolbar{
-      display:none;
-  }
 
 .pop{
     position:fixed;
-    bottom:30px;
+    bottom:105px;
     width:28vw;
     height:auto;
     border:1px solid rgb(121, 220, 245);
@@ -272,10 +269,10 @@ details>summary::before {
 }
 .pop .close{
     width:20%;
-    padding-top:30px;
+    padding-top:25px;
     cursor:pointer;
 }
-.pop .close h1{
+.pop .close *{
     color:yellow;
     padding-top:-5px;
 }
@@ -291,5 +288,11 @@ details>summary::before {
         width:80%;
         margin-left:10%;
         margin-right:10%;
+        bottom:115px;
+    }
+}
+@media screen and (max-width: 300px){
+    .pop{
+        bottom:15px;
     }
 }
